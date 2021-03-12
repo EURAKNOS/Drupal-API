@@ -5,4 +5,7 @@
 
 db:
     type: mariadb:10.4
-    disk: 2048
+    disk: 4096
+
+cache:
+    type: redis:5.0
