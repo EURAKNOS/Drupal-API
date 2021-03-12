@@ -1,0 +1,22 @@
+uuid: f9c54b87-8ca4-4940-905b-32c7367d6550
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - seven
+_core:
+  default_config_hash: FFp_FvC5FBjvUhAFzC449JS-sc6v5X6uDWmEkp1ST3c
+id: seven_breadcrumbs
+theme: seven
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: 'Breadcrumbs (Material Admin)'
+  provider: system
+  label_display: '0'
+visibility: {  }
