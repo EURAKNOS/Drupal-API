@@ -1,5 +1,5 @@
-
 <?php
+
 /**
  * @file
  * Platform.sh settings.
