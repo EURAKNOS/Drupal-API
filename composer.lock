@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d7f0b525f8a4f55424661568cfd645b3",
+    "content-hash": "c335e9873db5f768a043cf8c1ac5f15a",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -4982,6 +4982,45 @@
                 "exception"
             ],
             "time": "2019-12-10T10:24:42+00:00"
+        },
+        {
+            "name": "platformsh/config-reader",
+            "version": "2.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/platformsh/config-reader-php.git",
+                "reference": "5511abfdb673ccfcf0eac9eaf65204f73edd90fd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/platformsh/config-reader-php/zipball/5511abfdb673ccfcf0eac9eaf65204f73edd90fd",
+                "reference": "5511abfdb673ccfcf0eac9eaf65204f73edd90fd",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Platformsh\\ConfigReader\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Larry Garfield",
+                    "email": "larry@platform.sh"
+                }
+            ],
+            "description": "Small helper to access Platform.sh environment variables",
+            "time": "2020-12-10T20:50:12+00:00"
         },
         {
             "name": "psr/container",

@@ -30,6 +30,7 @@
         "drupal/core-composer-scaffold": "^9.0",
         "drush/drush": "^9.0||^10.0",
         "oomphinc/composer-installers-extender": "^2.0",
+        "platformsh/config-reader": "^2.4",
         "vlucas/phpdotenv": "^2.4"
     },
     "require-dev": {
