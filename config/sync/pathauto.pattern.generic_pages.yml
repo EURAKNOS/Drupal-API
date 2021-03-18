@@ -1,0 +1,22 @@
+uuid: 2a5f3b7b-dc77-4bff-ac26-a0247dde62b2
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: generic_pages
+label: 'Generic pages'
+type: 'canonical_entities:node'
+pattern: '[node:title]'
+selection_criteria:
+  a1798f51-9c63-4b19-a35f-bb2ef4d8ae76:
+    id: node_type
+    bundles:
+      generic_page: generic_page
+    negate: false
+    context_mapping:
+      node: node
+    uuid: a1798f51-9c63-4b19-a35f-bb2ef4d8ae76
+selection_logic: and
+weight: -5
+relationships: {  }

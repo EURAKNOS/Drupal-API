@@ -11,6 +11,8 @@ permissions:
   - 'access content'
   - 'access openapi api docs'
   - 'access toolbar'
+  - 'administer menu'
+  - 'administer rest menu items'
   - 'execute graphql requests'
   - 'issue subrequests'
   - 'use jsonrpc services'
