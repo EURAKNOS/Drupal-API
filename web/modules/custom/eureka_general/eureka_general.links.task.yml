@@ -1,0 +1,4 @@
+eureka_general.form.settings:
+  route_name: eureka_general.form.settings
+  title: Settings
+  base_route: eureka_general.form.settings

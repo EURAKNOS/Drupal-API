@@ -8,9 +8,11 @@ module:
   color: 0
   comment: 0
   config: 0
+  config_filter: 0
+  config_ignore: 0
+  config_split: 0
   config_translation: 0
   consumers: 0
-  contenta_enhancements: 0
   ctools: 0
   datetime: 0
   datetime_range: 0
@@ -18,10 +20,8 @@ module:
   dynamic_page_cache: 0
   editor: 0
   entity_reference: 0
-  environment_indicator: 0
-  environment_indicator_ui: 0
+  eureka_general: 0
   field: 0
-  field_ui: 0
   file: 0
   filter: 0
   hal: 0
@@ -56,11 +56,13 @@ module:
   rdf: 0
   responsive_image: 0
   rest: 0
+  restui: 0
   schemata: 0
   schemata_json_schema: 0
   serialization: 0
   simple_oauth: 0
   subrequests: 0
+  svg_image: 0
   syslog: 0
   system: 0
   taxonomy: 0
@@ -68,10 +70,10 @@ module:
   text: 0
   token: 0
   toolbar: 0
+  translated_config: 0
   update: 0
   user: 0
   views: 0
-  views_ui: 0
   warmer: 0
   forum: 1
   menu_link_content: 1

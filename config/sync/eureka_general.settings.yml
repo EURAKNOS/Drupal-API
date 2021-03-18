@@ -1,0 +1,10 @@
+footer_description:
+  value: ""
+  format: basic_html
+address:
+  value: ""
+  format: basic_html
+copyright: ""
+_core:
+  default_config_hash: QfCVWhJKm5kO83ybBZBYMUtlhXht8De01ZwoxiFUHJ4
+actions: {  }

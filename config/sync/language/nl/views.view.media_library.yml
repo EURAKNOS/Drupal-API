@@ -5,10 +5,19 @@ display:
         options:
           expose:
             items_per_page_label: 'Items per pagina'
+      fields:
+        media_bulk_form:
+          action_title: Actie
       filters:
         name:
           expose:
             label: Naam
+        bundle:
+          expose:
+            label: Mediatype
+          group_info:
+            label: Mediatype
+      title: Media
   widget:
     display_options:
       filters:
