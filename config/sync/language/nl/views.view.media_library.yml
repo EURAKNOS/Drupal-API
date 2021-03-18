@@ -1,0 +1,28 @@
+display:
+  default:
+    display_options:
+      pager:
+        options:
+          expose:
+            items_per_page_label: 'Items per pagina'
+      filters:
+        name:
+          expose:
+            label: Naam
+  widget:
+    display_options:
+      filters:
+        name:
+          expose:
+            label: Naam
+  widget_table:
+    display_options:
+      fields:
+        name:
+          label: Naam
+        uid:
+          label: Auteur
+      filters:
+        name:
+          expose:
+            label: Naam

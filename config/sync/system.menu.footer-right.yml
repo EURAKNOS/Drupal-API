@@ -1,0 +1,8 @@
+uuid: ea7ca80b-87b2-446e-b857-46fa9a26e036
+langcode: en
+status: true
+dependencies: {  }
+id: footer-right
+label: 'Follow us'
+description: 'Footer right menu'
+locked: false

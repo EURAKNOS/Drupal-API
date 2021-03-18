@@ -1,0 +1,28 @@
+display:
+  default:
+    display_options:
+      pager:
+        options:
+          expose:
+            items_per_page_label: 'Éléments par page'
+      filters:
+        name:
+          expose:
+            label: Nom
+  widget:
+    display_options:
+      filters:
+        name:
+          expose:
+            label: Nom
+  widget_table:
+    display_options:
+      fields:
+        name:
+          label: Nom
+        uid:
+          label: Auteur
+      filters:
+        name:
+          expose:
+            label: Nom
