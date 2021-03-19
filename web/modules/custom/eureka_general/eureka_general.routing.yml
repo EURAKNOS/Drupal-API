@@ -1,0 +1,17 @@
+eureka_general:
+  path: '/admin/config/eureka'
+  defaults:
+    _title: 'Eureka'
+    _controller: '\Drupal\system\Controller\SystemController::systemAdminMenuBlockPage'
+  options:
+    _admin_route: TRUE
+  requirements:
+    _permission: 'administer eureka configuration'
+
+eureka_general.form.settings:
+  path: '/admin/config/eureka/settings'
+  defaults:
+    _form: '\Drupal\eureka_general\Form\GeneralSettingsForm'
+    _title: 'General Settings'
+  requirements:
+    _permission: 'administer eureka configuration'

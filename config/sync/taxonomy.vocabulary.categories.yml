@@ -1,0 +1,8 @@
+uuid: 88ed8e9a-3f06-4c3c-b309-8e472a7b3929
+langcode: en
+status: true
+dependencies: {  }
+name: Categories
+vid: categories
+description: 'This vocabulary will be filled by DSpace in the future.'
+weight: 0

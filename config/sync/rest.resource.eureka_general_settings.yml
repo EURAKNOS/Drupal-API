@@ -1,0 +1,18 @@
+uuid: e956bac5-5e18-435c-9c80-eb1e5a7857ef
+langcode: en
+status: true
+dependencies:
+  module:
+    - eureka_general
+    - serialization
+    - user
+id: eureka_general_settings
+plugin_id: eureka_general_settings
+granularity: resource
+configuration:
+  methods:
+    - GET
+  formats:
+    - json
+  authentication:
+    - cookie

@@ -1,0 +1,6 @@
+name: General
+description: 'Contains general functionality for Eureka project'
+package: Eureka
+type: module
+core: 8.x
+core_version_requirement: ^8 || ^9

@@ -1,0 +1,15 @@
+eureka_general.settings:
+  type: config_object
+  label: 'General settings'
+  mapping:
+    footer_description:
+      value: ''
+      label: 'Footer description'
+      type: text_format
+    address:
+      value: ''
+      label: 'Address'
+      type: text_format
+    copyright:
+      label: 'Copyright'
+      type: label

@@ -5,10 +5,19 @@ display:
         options:
           expose:
             items_per_page_label: 'Éléments par page'
+      fields:
+        media_bulk_form:
+          action_title: Action
       filters:
         name:
           expose:
             label: Nom
+        bundle:
+          expose:
+            label: 'Type de média'
+          group_info:
+            label: 'Type de média'
+      title: Média
   widget:
     display_options:
       filters:
