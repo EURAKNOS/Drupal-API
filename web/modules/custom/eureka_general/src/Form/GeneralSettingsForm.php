@@ -17,6 +17,7 @@ class GeneralSettingsForm extends ConfigFormBase {
 
   const SETTINGS = 'eureka_general.settings';
   const FIELDS = [
+    'site_name',
     'footer_description',
     'address',
     'copyright'
@@ -73,6 +74,13 @@ class GeneralSettingsForm extends ConfigFormBase {
     $form['#tree'] = TRUE;
 
     $config = $this->config(self::SETTINGS);
+
+    $form['site_name'] = [
+      '#type' => 'textfield',
+      '#title' => $this->t('FE Site name'),
+      '#description' => $this->t('(Used in: Header, Footer, various locations...)'),
+      '#default_value' => $config->get('site_name') ? $config->get('site_name') : NULL,
+    ];
 
     $form['footer_description'] = [
       '#type' => 'text_format',

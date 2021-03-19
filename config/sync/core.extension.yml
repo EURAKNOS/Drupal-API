@@ -35,6 +35,7 @@ module:
   jsonapi_extras: 0
   jsonapi_menu_items: 0
   jsonapi_resources: 0
+  jsonapi_user_resources: 0
   jsonrpc: 0
   jsonrpc_discovery: 0
   language: 0
@@ -49,6 +50,7 @@ module:
   openapi_jsonapi: 0
   openapi_ui: 0
   openapi_ui_redoc: 0
+  openapi_ui_swagger: 0
   options: 0
   page_cache: 0
   path: 0

@@ -7,14 +7,9 @@ label: 'Anonymous user'
 weight: 0
 is_admin: false
 permissions:
-  - 'access comments'
   - 'access content'
   - 'access openapi api docs'
-  - 'access taxonomy overview'
-  - 'access toolbar'
-  - 'administer menu'
   - 'administer rest menu items'
-  - 'administer taxonomy_term display'
   - 'execute graphql requests'
   - 'issue subrequests'
   - 'restful get eureka_general_settings'
