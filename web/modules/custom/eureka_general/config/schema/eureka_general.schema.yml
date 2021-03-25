@@ -2,6 +2,9 @@ eureka_general.settings:
   type: config_object
   label: 'General settings'
   mapping:
+    site_name:
+      label: 'Site name'
+      type: label
     footer_description:
       value: ''
       label: 'Footer description'

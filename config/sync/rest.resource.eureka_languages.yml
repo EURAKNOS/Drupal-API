@@ -1,0 +1,18 @@
+uuid: 40dc3d30-33b6-48e3-90e0-dc01b1367b70
+langcode: en
+status: true
+dependencies:
+  module:
+    - eureka_general
+    - serialization
+    - user
+id: eureka_languages
+plugin_id: eureka_languages
+granularity: resource
+configuration:
+  methods:
+    - GET
+  formats:
+    - json
+  authentication:
+    - cookie

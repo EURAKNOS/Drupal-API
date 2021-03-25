@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.taxonomy_term.categories.field_color
     - field.field.taxonomy_term.categories.field_icon
     - field.field.taxonomy_term.categories.field_image
     - taxonomy.vocabulary.categories
@@ -17,36 +18,42 @@ mode: default
 content:
   description:
     type: text_textarea
-    weight: 3
+    weight: 5
     region: content
     settings:
       placeholder: ''
       rows: 5
     third_party_settings: {  }
+  field_color:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
   field_icon:
     type: media_library_widget
-    weight: 2
+    weight: 3
     settings:
       media_types: {  }
     third_party_settings: {  }
     region: content
   field_image:
     type: media_library_widget
-    weight: 1
+    weight: 4
     settings:
       media_types: {  }
     third_party_settings: {  }
     region: content
   langcode:
     type: language_select
-    weight: 4
+    weight: 0
     region: content
     settings:
       include_locked: true
     third_party_settings: {  }
   name:
     type: string_textfield
-    weight: 0
+    weight: 1
     region: content
     settings:
       size: 60
@@ -54,7 +61,7 @@ content:
     third_party_settings: {  }
   path:
     type: path
-    weight: 6
+    weight: 7
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -62,11 +69,11 @@ content:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 7
+    weight: 8
     region: content
     third_party_settings: {  }
   translation:
-    weight: 5
+    weight: 6
     region: content
     settings: {  }
     third_party_settings: {  }

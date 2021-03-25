@@ -14,7 +14,7 @@ use Psr\Log\LoggerInterface;
  *
  * @RestResource(
  *   id = "eureka_general_settings",
- *   label = @Translation("Eureka general settings"),
+ *   label = @Translation("General settings (eureka)"),
  *   uri_paths = {
  *     "canonical" = "/api/general_settings"
  *   }
