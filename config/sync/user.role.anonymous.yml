@@ -13,5 +13,6 @@ permissions:
   - 'execute graphql requests'
   - 'issue subrequests'
   - 'restful get eureka_general_settings'
+  - 'restful get eureka_languages'
   - 'use jsonrpc services'
   - 'view media'
