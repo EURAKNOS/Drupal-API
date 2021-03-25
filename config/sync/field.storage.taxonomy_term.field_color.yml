@@ -1,0 +1,39 @@
+uuid: ec78ef44-d97e-4e70-9feb-5f7f09032b22
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - taxonomy
+id: taxonomy_term.field_color
+field_name: field_color
+entity_type: taxonomy_term
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: dark-green
+      label: 'Dark green'
+    -
+      value: red
+      label: Red
+    -
+      value: lime
+      label: Lime
+    -
+      value: yellow
+      label: Yellow
+    -
+      value: blue
+      label: Blue
+    -
+      value: green
+      label: Green
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
