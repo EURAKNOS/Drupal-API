@@ -1,0 +1,18 @@
+uuid: a7e36d46-3a18-4a1a-b3b0-2981f608c0a6
+langcode: en
+status: true
+dependencies:
+  module:
+    - eureka_general
+    - serialization
+    - user
+id: eureka_entity_translations
+plugin_id: eureka_entity_translations
+granularity: resource
+configuration:
+  methods:
+    - GET
+  formats:
+    - json
+  authentication:
+    - cookie

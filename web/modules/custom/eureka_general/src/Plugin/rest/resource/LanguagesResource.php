@@ -66,7 +66,7 @@ class LanguagesResource extends ResourceBase {
    */
   public function get() {
     $data = [];
-    $languages = $this->languageManager->getLanguages();
+    $languages = $this->languageManager->getNativeLanguages();
 
     foreach ($languages as $language) {
       $data[$language->getId()] = $language->getName();
