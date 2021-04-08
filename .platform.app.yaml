@@ -135,7 +135,7 @@ web:
                 '^/sites/default/files/(css|js)':
                     expires: 2w
             headers:
-              Access-Control-Allow-Origin: *
+              Access-Control-Allow-Origin: https://app-test.euraknos.eu
 
 # The configuration of scheduled execution.
 crons:
