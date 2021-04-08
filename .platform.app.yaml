@@ -134,6 +134,8 @@ web:
                 # Provide a longer TTL (2 weeks) for aggregated CSS and JS files.
                 '^/sites/default/files/(css|js)':
                     expires: 2w
+            headers:
+              Access-Control-Allow-Origin: *
 
 # The configuration of scheduled execution.
 crons:
