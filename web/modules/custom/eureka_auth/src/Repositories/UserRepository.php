@@ -60,6 +60,7 @@ class UserRepository implements UserRepositoryInterface {
 
           if (!$user->isActive() && !$user->getLastAccessedTime()) {
             $user->activate();
+            $user->save();
           }
 
           return $UserEntity;
