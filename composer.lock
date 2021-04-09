@@ -13000,8 +13000,7 @@
     "stability-flags": {
         "contentacms/contenta_jsonapi": 20,
         "drupal/openapi_ui_swagger": 5,
-        "drupal/openapi_ui_swagger": 5
-        "drupal/user_registrationpassword": 15,
+        "drupal/user_registrationpassword": 15
     },
     "prefer-stable": true,
     "prefer-lowest": false,
