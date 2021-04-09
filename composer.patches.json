@@ -2,9 +2,6 @@
   "patches": {
     "drupal/core": {
       "X-CSRF-Token request header is missing when using Bearer authentication": "https://www.drupal.org/files/issues/2021-01-04/3055260-add-additional-condition-to-csrf-check-32.patch"
-    },
-    "drupal/user_registrationpassword": {
-      "Adding the same verification process to REST Web Services registration": "https://www.drupal.org/files/issues/2020-05-25/2937756-7.patch"
     }
   }
 }
