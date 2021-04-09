@@ -1,0 +1,66 @@
+<?php
+
+use Drupal\Core\Render\BubbleableMetadata;
+use Drupal\eureka_general\Form\FrontEndRoutesForm;
+use Drupal\Core\Url;
+
+/**
+ * Implements hook_token_info().
+ */
+function eureka_auth_token_info() {
+  $info = [];
+
+  $info['tokens']['eureka']['registration-url'] = [
+    'name' => t('Registration confirmation | Front-end'),
+    'description' => t('Redirects to Front-End with registration parameters.'),
+  ];
+
+  $info['tokens']['eureka']['one-time-login'] = [
+    'name' => t('One time login | Front-end'),
+    'description' => t('Redirects to Front-End with login parameters.'),
+  ];
+
+  return $info;
+}
+
+/**
+ * Implements hook_tokens().
+ */
+function  eureka_auth_tokens($type, $tokens, array $data, array $options, BubbleableMetadata $bubbleable_metadata) {
+  $replacements = [];
+
+  if ($type == 'eureka') {
+    $front_end_base_url = \Drupal::config(FrontEndRoutesForm::SETTINGS)->get('base_url');
+
+    foreach ($tokens as $name => $original) {
+      switch ($name) {
+        case 'registration-url':
+          $url = Url::fromUri($front_end_base_url);
+
+          $url->setOption('query',
+            [
+              'redirect_from' => user_registrationpassword_confirmation_url($data['user'], $options),
+            ]
+          );
+          $replacements[$original] = $url->toString();
+
+          break;
+
+        case 'one-time-login':
+          $url = Url::fromUri($front_end_base_url);
+
+          $url->setOption('query',
+            [
+              'redirect_from' => user_pass_reset_url($data['user'], $options),
+            ]
+          );
+
+          $replacements[$original] = $url->toString();
+
+          break;
+      }
+    }
+  }
+
+  return $replacements;
+}

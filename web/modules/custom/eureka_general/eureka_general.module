@@ -1,1 +1,15 @@
 <?php
+
+/**
+ * Implements hook_token_info().
+ */
+function eureka_general_token_info() {
+  $info = [];
+
+  $info['types']['eureka'] = [
+    'name' => t('Eureka'),
+    'description' => t('Tokens for the Eureka project.'),
+  ];
+
+  return $info;
+}

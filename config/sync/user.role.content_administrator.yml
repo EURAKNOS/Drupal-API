@@ -9,6 +9,7 @@ is_admin: null
 permissions:
   - 'access content overview'
   - 'access user profiles'
+  - 'administer eureka configuration'
   - 'administer media'
   - 'administer media types'
   - 'administer taxonomy'

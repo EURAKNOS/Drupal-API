@@ -16,10 +16,12 @@ module:
   ctools: 0
   datetime: 0
   datetime_range: 0
+  dblog: 0
   decoupled_router: 0
   dynamic_page_cache: 0
   editor: 0
   entity_reference: 0
+  eureka_auth: 0
   eureka_general: 0
   field: 0
   file: 0
@@ -35,7 +37,6 @@ module:
   jsonapi_extras: 0
   jsonapi_menu_items: 0
   jsonapi_resources: 0
-  jsonapi_user_resources: 0
   jsonrpc: 0
   jsonrpc_discovery: 0
   language: 0
@@ -75,6 +76,7 @@ module:
   translated_config: 0
   update: 0
   user: 0
+  user_registrationpassword: 0
   views: 0
   warmer: 0
   forum: 1

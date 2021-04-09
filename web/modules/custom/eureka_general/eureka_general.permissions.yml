@@ -1,0 +1,6 @@
+administer eureka configuration:
+  title: 'Administer configuration for Eureka'
+  restrict access: true
+administer developer configuration:
+  title: 'Administer developer configuration for Eureka'
+  restrict access: true

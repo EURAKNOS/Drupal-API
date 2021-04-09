@@ -15,5 +15,6 @@ permissions:
   - 'restful get eureka_entity_translations'
   - 'restful get eureka_general_settings'
   - 'restful get eureka_languages'
+  - 'restful post user_registrationpassword'
   - 'use jsonrpc services'
   - 'view media'

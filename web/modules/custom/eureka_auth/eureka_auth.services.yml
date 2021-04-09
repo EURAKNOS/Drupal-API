@@ -1,0 +1,4 @@
+services:
+  eureka_auth.repositories.user:
+    class: Drupal\eureka_auth\Repositories\UserRepository
+    arguments: ['@user.auth']
