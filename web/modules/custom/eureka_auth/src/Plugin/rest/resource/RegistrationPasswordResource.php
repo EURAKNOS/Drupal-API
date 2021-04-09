@@ -20,7 +20,7 @@ use Drupal\user_registrationpassword\UserRegistrationPassword;
  * Represents user registration with password and confirmation as a resource.
  *
  * @RestResource(
- *   id = "user_registration_password",
+ *   id = "user_registrationpassword",
  *   label = @Translation("User registration with password"),
  *   serialization_class = "Drupal\user\Entity\User",
  *   uri_paths = {
