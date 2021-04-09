@@ -56,6 +56,9 @@ mounts:
     '/.console':
         source: local
         source_path: 'console'
+    '/keys':
+      source: local
+      source_path: 'keys'
 
 # Configuration of the build of this application.
 build:
