@@ -36,6 +36,9 @@ class VotesEnhancer extends ResourceFieldEnhancerBase implements ContainerFactor
    * {@inheritdoc}
    */
   protected function doUndoTransform($data, Context $context) {
+    $data = [];
+    $user_vote = NULL;
+
     /** @var \Drupal\votingapi\VoteResultFunctionManager $voting_service */
     $voting_service = \Drupal::service('plugin.manager.votingapi.resultfunction');
 
@@ -44,31 +47,35 @@ class VotesEnhancer extends ResourceFieldEnhancerBase implements ContainerFactor
 
     /** @var \Drupal\Core\Entity\EntityRepositoryInterface $entity_repository */
     $entity_repository = \Drupal::service('entity.repository');
-    $entity = $entity_repository->loadEntityByUuid('node', $uuid);
 
-    // Get the votes of the current node.
-    $votes = $voting_service->getResults('node', $entity->id());
-    $votes = reset($votes);
+    if ($uuid) {
+      $entity = $entity_repository->loadEntityByUuid('node', $uuid);
 
-    // Look for existing votes on the node by the current user.
-    $user_votes = \Drupal::entityTypeManager()->getStorage('vote')->loadByProperties([
-      'type' => 'updown',
-      'entity_id' => $entity->id(),
-      'user_id' => \Drupal::currentUser()->id(),
-    ]);
+      // Get the votes of the current node.
+      $votes = $voting_service->getResults('node', $entity->id());
+      $votes = is_array($votes) ? reset($votes) : NULL;
 
-    /** @var \Drupal\votingapi\Entity\Vote $votie */
-    $user_vote = reset($user_votes);
+      if ($votes) {
+        // Look for existing votes on the node by the current user.
+        $user_votes = \Drupal::entityTypeManager()->getStorage('vote')->loadByProperties([
+          'type' => 'updown',
+          'entity_id' => $entity->id(),
+          'user_id' => \Drupal::currentUser()->id(),
+        ]);
 
-    // The data we want to return.
-    $data = [
-      'total' => $votes['vote_count'],
-      'average' => $votes['vote_average'],
-      'sum' => $votes['vote_sum'],
-      'count_up' => $votes['rate_count_up'],
-      'user_vote_id' => $user_vote ? $user_vote->id() : '',
-      'user_vote_source' => $user_vote ? $user_vote->getSource() : '',
-    ];
+        /** @var \Drupal\votingapi\Entity\Vote $votie */
+        $user_vote = reset($user_votes);
+
+        $data = [
+          'total' => isset($votes['vote_count']) ? $votes['vote_count'] : NULL,
+          'average' => isset($votes['vote_average']) ? $votes['vote_average'] : NULL,
+          'sum' => isset($votes['vote_sum']) ? $votes['vote_sum'] : NULL,
+          'count_up' => isset($votes['rate_count_up']) ? $votes['rate_count_up'] : NULL,
+          'user_vote_id' => $user_vote ? $user_vote->id() : '',
+          'user_vote_source' => $user_vote ? $user_vote->getSource() : '',
+        ];
+      }
+    }
 
     return $data;
   }
