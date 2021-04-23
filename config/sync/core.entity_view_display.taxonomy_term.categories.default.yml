@@ -3,10 +3,12 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.taxonomy_term.categories.field_color
     - field.field.taxonomy_term.categories.field_icon
     - field.field.taxonomy_term.categories.field_image
     - taxonomy.vocabulary.categories
   module:
+    - options
     - text
 id: taxonomy_term.categories.default
 targetEntityType: taxonomy_term
@@ -20,6 +22,13 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_color:
+    weight: 3
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
   field_icon:
     type: entity_reference_entity_view
     weight: 2

@@ -6,6 +6,8 @@ dependencies:
     - core.entity_view_display.comment.comment_forum.default
     - field.field.node.forum.body
     - field.field.node.forum.comment_forum
+    - field.field.node.forum.field_api_votes
+    - field.field.node.forum.field_category
     - field.field.node.forum.taxonomy_forums
     - node.type.forum
   module:
@@ -22,37 +24,53 @@ content:
   body:
     label: hidden
     type: text_default
-    weight: 0
+    weight: 3
     region: content
     settings: {  }
     third_party_settings: {  }
   comment_forum:
     label: hidden
     type: comment_default
-    weight: 20
+    weight: 4
     region: content
     settings:
       view_mode: default
       pager_id: 0
     third_party_settings: {  }
-  links:
-    weight: 100
+  field_category:
+    weight: 6
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
     region: content
+  links:
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  rate_upvote_downvote:
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
   taxonomy_forums:
     type: entity_reference_label
-    weight: -1
+    weight: 1
     region: content
-    label: above
+    label: hidden
     settings:
       link: true
     third_party_settings: {  }
   title:
     label: hidden
     type: string
-    weight: -5
+    weight: 0
     region: content
     settings:
       link_to_entity: false
     third_party_settings: {  }
 hidden:
+  field_api_votes: true
   langcode: true

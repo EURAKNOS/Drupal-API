@@ -8,8 +8,10 @@ weight: 3
 is_admin: null
 permissions:
   - 'access content overview'
+  - 'access toolbar'
   - 'access user profiles'
   - 'administer media'
   - 'administer media types'
   - 'administer taxonomy'
   - 'bypass node access'
+  - 'use text format basic_html'

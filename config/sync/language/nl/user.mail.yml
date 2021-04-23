@@ -1,0 +1,2 @@
+register_no_approval_required:
+  subject: 'Accountgegevens voor [user:display-name] op [site:name]'

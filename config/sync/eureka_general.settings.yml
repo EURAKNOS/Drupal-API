@@ -1,11 +1,11 @@
 footer_description:
-  value: ""
+  value: "<p>test</p>\r\n"
   format: basic_html
 address:
-  value: ""
+  value: "<p>test</p>\r\n"
   format: basic_html
-copyright: ""
-site_name: ""
+copyright: test
 _core:
   default_config_hash: QfCVWhJKm5kO83ybBZBYMUtlhXht8De01ZwoxiFUHJ4
 actions: {  }
+site_name: Farmbook

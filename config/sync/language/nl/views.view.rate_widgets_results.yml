@@ -1,0 +1,62 @@
+display:
+  default:
+    display_title: Hoofd
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Toepassen
+          reset_button_label: Reset
+          exposed_sorts_label: 'Sorteren op'
+          sort_asc_label: Oplopend
+          sort_desc_label: Aflopend
+      fields:
+        user_id:
+          label: Gebruiker
+          separator: ', '
+        value:
+          separator: ', '
+        timestamp:
+          label: Datum
+          separator: ', '
+      arguments:
+        entity_id:
+          exception:
+            title: Alle
+        entity_type:
+          exception:
+            title: Alle
+        rate_widget:
+          exception:
+            title: Alle
+  node_results_block:
+    display_title: Blok
+    display_options:
+      fields:
+        user_id:
+          label: Gebruiker
+          separator: ', '
+        value:
+          separator: ', '
+        timestamp:
+          label: Datum
+          separator: ', '
+      pager:
+        options:
+          tags:
+            previous: '‹ Vorige'
+            next: 'Volgende ›'
+            first: '« Eerste'
+            last: 'Laatste »'
+          expose:
+            items_per_page_label: 'Items per pagina'
+            items_per_page_options_all_label: '- Alle -'
+            offset_label: Startpunt
+  node_summary_block:
+    display_title: Blok
+    display_options:
+      fields:
+        value_1:
+          separator: ', '
+        value:
+          label: Totaal
+          separator: ','

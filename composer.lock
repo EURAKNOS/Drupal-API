@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "179a2b257eca097176f44411facb32d1",
+    "content-hash": "9ef5e51508d7d01a4f75130e0fd599df",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -4030,6 +4030,72 @@
             }
         },
         {
+            "name": "drupal/rate",
+            "version": "2.0.0-alpha1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/rate.git",
+                "reference": "8.x-2.0-alpha1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/rate-8.x-2.0-alpha1.zip",
+                "reference": "8.x-2.0-alpha1",
+                "shasum": "aea3e00a7bddb3f2f2a35cdcf452b056056d34e7"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9",
+                "drupal/votingapi": "^3.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-2.0-alpha1",
+                    "datestamp": "1612564517",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Alpha releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "JordiK",
+                    "homepage": "https://www.drupal.org/user/3472907"
+                },
+                {
+                    "name": "Krzysztof Domański",
+                    "homepage": "https://www.drupal.org/user/3572982"
+                },
+                {
+                    "name": "brenk28",
+                    "homepage": "https://www.drupal.org/user/65985"
+                },
+                {
+                    "name": "kevin.dutra",
+                    "homepage": "https://www.drupal.org/user/1312744"
+                },
+                {
+                    "name": "mauritsl",
+                    "homepage": "https://www.drupal.org/user/243897"
+                },
+                {
+                    "name": "michaelmol",
+                    "homepage": "https://www.drupal.org/user/919186"
+                }
+            ],
+            "description": "Flexible voting options for entity types.",
+            "homepage": "https://www.drupal.org/project/rate",
+            "support": {
+                "source": "https://git.drupalcode.org/project/rate",
+                "issues": "https://www.drupal.org/project/issues/rate"
+            }
+        },
+        {
             "name": "drupal/restui",
             "version": "1.19.0",
             "source": {
@@ -4540,6 +4606,54 @@
             }
         },
         {
+            "name": "drupal/user_registrationpassword",
+            "version": "1.0.0-alpha5",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/user_registrationpassword.git",
+                "reference": "8.x-1.0-alpha5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/user_registrationpassword-8.x-1.0-alpha5.zip",
+                "reference": "8.x-1.0-alpha5",
+                "shasum": "2443b1e7d1c080863c907da569187add5b0c0814"
+            },
+            "require": {
+                "drupal/core": "^8.8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.0-alpha5",
+                    "datestamp": "1592713735",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Alpha releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Rob C",
+                    "homepage": "https://www.drupal.org/user/313382"
+                },
+                {
+                    "name": "jide",
+                    "homepage": "https://www.drupal.org/user/146088"
+                }
+            ],
+            "description": "Let users register with a password on the registration form when verification mail is required.",
+            "homepage": "https://www.drupal.org/project/user_registrationpassword",
+            "support": {
+                "source": "https://git.drupalcode.org/project/user_registrationpassword"
+            }
+        },
+        {
             "name": "drupal/video_embed_field",
             "version": "2.4.0",
             "source": {
@@ -4593,6 +4707,73 @@
             "homepage": "https://www.drupal.org/project/video_embed_field",
             "support": {
                 "source": "https://git.drupalcode.org/project/video_embed_field"
+            }
+        },
+        {
+            "name": "drupal/votingapi",
+            "version": "3.0.0-beta2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/votingapi.git",
+                "reference": "8.x-3.0-beta2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/votingapi-8.x-3.0-beta2.zip",
+                "reference": "8.x-3.0-beta2",
+                "shasum": "1fe15da49cc1f2126f29ae39349a199eb1360a32"
+            },
+            "require": {
+                "drupal/core": "^8.7.7 || ^9"
+            },
+            "require-dev": {
+                "drupal/token": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-3.0-beta2",
+                    "datestamp": "1591656113",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Beta releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "TR",
+                    "homepage": "https://www.drupal.org/user/202830"
+                },
+                {
+                    "name": "eaton",
+                    "homepage": "https://www.drupal.org/user/16496"
+                },
+                {
+                    "name": "pedrorocha",
+                    "homepage": "https://www.drupal.org/user/218937"
+                },
+                {
+                    "name": "pifagor",
+                    "homepage": "https://www.drupal.org/user/2375692"
+                },
+                {
+                    "name": "torotil",
+                    "homepage": "https://www.drupal.org/user/865256"
+                }
+            ],
+            "description": "Voting API",
+            "homepage": "http://drupal.org/project/votingapi",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "https://git.drupalcode.org/project/votingapi",
+                "issues": "http://drupal.org/project/issues/votingapi"
             }
         },
         {
@@ -13002,7 +13183,10 @@
     "stability-flags": {
         "contentacms/contenta_jsonapi": 20,
         "drupal/jsonapi_user_resources": 15,
-        "drupal/openapi_ui_swagger": 5
+        "drupal/openapi_ui_swagger": 5,
+        "drupal/rate": 15,
+        "drupal/user_registrationpassword": 15,
+        "drupal/votingapi": 10,
     },
     "prefer-stable": true,
     "prefer-lowest": false,

@@ -1,0 +1,21 @@
+uuid: 5c9d7a95-71bb-4bc5-a3fa-ec774f60239f
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.comment_forum
+    - field.storage.comment.field_api_votes
+id: comment.comment_forum.field_api_votes
+field_name: field_api_votes
+entity_type: comment
+bundle: comment_forum
+label: 'Api votes'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: '1'
+default_value_callback: ''
+settings: {  }
+field_type: string

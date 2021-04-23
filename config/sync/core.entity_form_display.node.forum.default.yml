@@ -5,6 +5,8 @@ dependencies:
   config:
     - field.field.node.forum.body
     - field.field.node.forum.comment_forum
+    - field.field.node.forum.field_api_votes
+    - field.field.node.forum.field_category
     - field.field.node.forum.taxonomy_forums
     - node.type.forum
   module:
@@ -20,7 +22,7 @@ mode: default
 content:
   body:
     type: text_textarea_with_summary
-    weight: 27
+    weight: 9
     region: content
     settings:
       rows: 9
@@ -30,26 +32,40 @@ content:
     third_party_settings: {  }
   comment_forum:
     type: comment_default
-    weight: 20
+    weight: 8
     region: content
     settings: {  }
     third_party_settings: {  }
   created:
     type: datetime_timestamp
-    weight: 10
+    weight: 5
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_api_votes:
+    weight: 12
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_category:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
   langcode:
     type: language_select
-    weight: 2
+    weight: 3
     region: content
     settings:
       include_locked: true
     third_party_settings: {  }
   path:
     type: path
-    weight: 30
+    weight: 10
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -57,32 +73,36 @@ content:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 15
+    weight: 6
     region: content
     third_party_settings: {  }
   status:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 120
+    weight: 11
     region: content
     third_party_settings: {  }
   sticky:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 16
+    weight: 7
     region: content
     third_party_settings: {  }
   taxonomy_forums:
-    type: options_select
-    weight: 26
+    type: entity_reference_autocomplete
+    weight: 2
     region: content
-    settings: {  }
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
   title:
     type: string_textfield
-    weight: -5
+    weight: 0
     region: content
     settings:
       size: 60
@@ -90,7 +110,7 @@ content:
     third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete
-    weight: 5
+    weight: 4
     region: content
     settings:
       match_operator: CONTAINS
