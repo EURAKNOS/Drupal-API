@@ -35,6 +35,7 @@
         "drupal/jsonapi_user_resources": "^1.0@alpha",
         "drupal/openapi_ui_swagger": "^1.0@RC",
         "drupal/pathauto": "^1.8",
+        "drupal/profile": "^1.2",
         "drupal/rate": "^2.0@alpha",
         "drupal/restui": "^1.19",
         "drupal/svg_image": "^1.14",

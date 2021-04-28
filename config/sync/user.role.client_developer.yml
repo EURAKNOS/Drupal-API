@@ -8,11 +8,17 @@ weight: 4
 is_admin: null
 permissions:
   - 'access openapi api docs'
+  - 'access profile overview'
   - 'access toolbar'
   - 'access user profiles'
   - 'administer account settings'
   - 'administer eureka configuration'
   - 'administer menu'
   - 'administer simple_oauth entities'
+  - 'create user profile'
+  - 'delete own user profile'
   - 'grant simple_oauth codes'
+  - 'update any user profile'
   - 'use text format basic_html'
+  - 'view any user profile'
+  - 'view own user profile'

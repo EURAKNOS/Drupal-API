@@ -20,6 +20,7 @@ module:
   decoupled_router: 0
   dynamic_page_cache: 0
   editor: 0
+  entity: 0
   entity_reference: 0
   eureka_general: 0
   field: 0
@@ -56,6 +57,7 @@ module:
   page_cache: 0
   path: 0
   path_alias: 0
+  profile: 0
   rate: 0
   rdf: 0
   responsive_image: 0

@@ -8,10 +8,16 @@ weight: 3
 is_admin: null
 permissions:
   - 'access content overview'
+  - 'access profile overview'
   - 'access toolbar'
   - 'access user profiles'
   - 'administer media'
   - 'administer media types'
   - 'administer taxonomy'
   - 'bypass node access'
+  - 'create user profile'
+  - 'delete own user profile'
+  - 'update any user profile'
   - 'use text format basic_html'
+  - 'view any user profile'
+  - 'view own user profile'
