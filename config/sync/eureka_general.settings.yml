@@ -1,11 +1,11 @@
 footer_description:
-  value: ""
+  value: "<p>Euraknos is a collection of vetted best practices for farmers &amp; foresters. All content in the library are produced by Thematic Networks (TNs)</p>\r\n"
   format: basic_html
 address:
-  value: ""
+  value: "<p>Ghent University<br />\r\nCampus Coupure, B6, Coupure Links 653<br />\r\n9000 Ghent, Belgium</p>\r\n"
   format: basic_html
-copyright: ""
-site_name: ""
+copyright: 'All rights reserved. '
 _core:
   default_config_hash: QfCVWhJKm5kO83ybBZBYMUtlhXht8De01ZwoxiFUHJ4
 actions: {  }
+site_name: 'EU FarmBook'

@@ -1,0 +1,2 @@
+register_no_approval_required:
+  subject: 'Détails du compte [user:display-name] sur [site:name]'

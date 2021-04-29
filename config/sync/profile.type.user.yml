@@ -1,0 +1,16 @@
+uuid: b0105f43-e331-46c2-8425-c0e6209dd246
+langcode: en
+status: true
+dependencies: {  }
+id: user
+label: User
+display_label: User
+multiple: false
+registration: true
+roles:
+  authenticated: authenticated
+  administrator: administrator
+  content_administrator: content_administrator
+  client_developer: client_developer
+allow_revisions: false
+new_revision: false

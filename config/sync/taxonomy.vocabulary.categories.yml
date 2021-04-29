@@ -4,5 +4,5 @@ status: true
 dependencies: {  }
 name: Categories
 vid: categories
-description: 'This vocabulary will be filled by DSpace in the future.'
+description: 'Explore all the categories in Farmbook.'
 weight: 0

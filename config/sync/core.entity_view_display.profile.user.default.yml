@@ -1,0 +1,21 @@
+uuid: 810161ce-9976-4ceb-a960-feb7486373d1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.profile.user.field_preferences
+    - profile.type.user
+id: profile.user.default
+targetEntityType: profile
+bundle: user
+mode: default
+content:
+  field_preferences:
+    weight: 0
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+hidden: {  }

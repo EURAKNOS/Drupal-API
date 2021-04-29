@@ -1,0 +1,40 @@
+uuid: 1d468c6e-101e-4708-8851-4e97b86675f4
+langcode: nl
+status: true
+dependencies: {  }
+id: upvote_downvote
+label: 'Upvote / Downvote'
+template: thumbsupdown
+value_type: points
+entity_types:
+  - node.forum
+  - node.generic_page
+  - taxonomy_term.forums
+comment_types:
+  - node.forum
+  - node.generic_page
+  - taxonomy_term.forums
+options:
+  -
+    class: ''
+    value: '1'
+    label: up
+  -
+    class: ''
+    value: '-1'
+    label: down
+voting:
+  use_deadline: 0
+  anonymous_window: -2
+  user_window: -2
+display:
+  display_label: ''
+  label_class: ''
+  label_position: above
+  description: ''
+  description_class: ''
+  description_position: below
+  readonly: 0
+results:
+  result_position: right
+  result_type: user_vote_empty

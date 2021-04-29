@@ -1,0 +1,18 @@
+uuid: b73fd0c7-1e1a-4a02-8c2d-ed825f56cf26
+langcode: en
+status: false
+dependencies:
+  module:
+    - language
+    - serialization
+    - user
+id: entity.configurable_language
+plugin_id: 'entity:configurable_language'
+granularity: resource
+configuration:
+  methods:
+    - GET
+  formats:
+    - json
+  authentication:
+    - cookie

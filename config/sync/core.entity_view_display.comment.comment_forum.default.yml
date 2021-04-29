@@ -5,6 +5,7 @@ dependencies:
   config:
     - comment.type.comment_forum
     - field.field.comment.comment_forum.comment_body
+    - field.field.comment.comment_forum.field_api_votes
   module:
     - text
 _core:
@@ -22,7 +23,15 @@ content:
     settings: {  }
     third_party_settings: {  }
   links:
-    weight: 100
+    weight: 1
     region: content
+    settings: {  }
+    third_party_settings: {  }
+  rate_comment_upvote_downvote:
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
 hidden:
+  field_api_votes: true
   langcode: true

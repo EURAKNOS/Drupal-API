@@ -1,0 +1,20 @@
+uuid: 11af3cfe-cabd-4770-acdc-755879d7eea4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.profile.user.field_preferences
+    - profile.type.user
+id: profile.user.default
+targetEntityType: profile
+bundle: user
+mode: default
+content:
+  field_preferences:
+    weight: 26
+    settings: {  }
+    third_party_settings: {  }
+    type: options_buttons
+    region: content
+hidden:
+  is_default: true

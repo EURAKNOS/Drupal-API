@@ -1,0 +1,17 @@
+uuid: eb0389bd-291d-4761-807d-0edf89de9975
+langcode: en
+status: false
+dependencies:
+  module:
+    - serialization
+    - user
+id: user_registration
+plugin_id: user_registration
+granularity: resource
+configuration:
+  methods:
+    - POST
+  formats:
+    - json
+  authentication:
+    - cookie

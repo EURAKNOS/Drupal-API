@@ -1,0 +1,18 @@
+uuid: a8766101-f855-4bf7-ab52-7361fd110548
+langcode: en
+status: true
+dependencies:
+  module:
+    - serialization
+    - user
+    - votingapi
+id: entity.vote_result
+plugin_id: 'entity:vote_result'
+granularity: resource
+configuration:
+  methods:
+    - GET
+  formats:
+    - json
+  authentication:
+    - cookie
