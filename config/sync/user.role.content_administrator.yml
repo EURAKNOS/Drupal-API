@@ -12,6 +12,7 @@ permissions:
   - 'access toolbar'
   - 'access user profiles'
   - 'access webform overview'
+  - 'administer eureka configuration'
   - 'administer media'
   - 'administer media types'
   - 'administer taxonomy'

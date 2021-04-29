@@ -30,7 +30,7 @@ class EntityTranslationResource extends ResourceBase {
   protected $logger;
 
   /**
-   * The langauge manager.
+   * The language manager.
    *
    * @var \Drupal\Core\Language\LanguageManagerInterface
    */

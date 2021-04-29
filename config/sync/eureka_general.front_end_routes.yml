@@ -1,0 +1,4 @@
+base_url: 'https://app-test.euraknos.eu'
+user: /user
+password_reset: /user/reset
+actions: {  }

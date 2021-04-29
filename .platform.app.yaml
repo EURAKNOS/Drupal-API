@@ -56,6 +56,9 @@ mounts:
     '/.console':
         source: local
         source_path: 'console'
+    '/keys':
+      source: local
+      source_path: 'keys'
 
 # Configuration of the build of this application.
 build:
@@ -73,8 +76,6 @@ hooks:
         cd web
         drush -y cache-rebuild
         drush -y updatedb
-        drush -y locale-check
-        drush -y locale-update
         drush -y config-import
 
 # The configuration of app when it is exposed to the web.

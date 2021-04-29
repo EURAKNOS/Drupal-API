@@ -3,7 +3,7 @@ eureka_general:
   description: 'A parent link to place the Eureka links under in the menu'
   parent: system.admin_config
   route_name: eureka_general
-  weight: -5
+  weight: -20
 
 eureka_general.link.settings:
   title: 'General settings'
@@ -11,3 +11,10 @@ eureka_general.link.settings:
   parent: eureka_general
   route_name: 'eureka_general.form.settings'
   weight: 0
+
+eureka_general.link.front_end_routes:
+  title: 'Front-end routes'
+  description: 'Configure routes from the front-end.'
+  parent: eureka_general
+  route_name: 'eureka_general.form.front_end_routes'
+  weight: 1

@@ -15,3 +15,11 @@ eureka_general.form.settings:
     _title: 'General Settings'
   requirements:
     _permission: 'administer eureka configuration'
+
+eureka_general.form.front_end_routes:
+  path: '/admin/config/eureka/front-end-routes'
+  defaults:
+    _form: '\Drupal\eureka_general\Form\FrontEndRoutesForm'
+    _title: 'Front-end routes'
+  requirements:
+    _permission: 'administer developer configuration'

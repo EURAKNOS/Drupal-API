@@ -22,6 +22,7 @@ permissions:
   - 'delete own webform submission'
   - 'edit any webform submission'
   - 'edit own webform submission'
+  - 'administer users'
   - 'grant simple_oauth codes'
   - 'update any user profile'
   - 'use text format basic_html'
