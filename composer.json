@@ -42,6 +42,8 @@
         "drupal/translated_config": "^1.0",
         "drupal/user_registrationpassword": "^1.0@alpha",
         "drupal/votingapi": "^3.0@beta",
+        "drupal/webform": "^6.0",
+        "drupal/webform_rest": "^4.0",
         "drush/drush": "^9.0||^10.0",
         "oomphinc/composer-installers-extender": "^2.0",
         "platformsh/config-reader": "^2.4",

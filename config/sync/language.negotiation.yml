@@ -7,8 +7,32 @@ url:
     '': null
     fr: fr
     nl: nl
+    de: de
+    es: es
+    it: it
+    pl: pl
+    da: da
+    et: et
+    el: el
+    hu: hu
+    lt: lt
+    ro: ro
+    sv: sv
+    sl: sl
   domains:
     en: ''
     fr: ''
     nl: ''
+    de: ''
+    es: ''
+    it: ''
+    pl: ''
+    da: ''
+    et: ''
+    el: ''
+    hu: ''
+    lt: ''
+    ro: ''
+    sv: ''
+    sl: ''
 selected_langcode: site_default

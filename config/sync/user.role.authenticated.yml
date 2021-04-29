@@ -29,6 +29,7 @@ permissions:
   - 'restful get eureka_languages'
   - 'restful get user_resetpassword'
   - 'restful post user_registrationpassword'
+  - 'restful post webform_rest_submit'
   - 'skip comment approval'
   - 'update own user profile'
   - 'use jsonrpc services'
