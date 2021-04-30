@@ -9,7 +9,6 @@ is_admin: false
 permissions:
   - 'access comments'
   - 'access content'
-  - 'access openapi api docs'
   - 'access user profiles'
   - 'administer rest resources'
   - 'cast rate vote on comment_forum on node of forum'

@@ -1,9 +1,9 @@
-<h1 id="contenta-jsonapi-project">
-  Contenta JSON API Project
-  <img align="right" src="./logo.svg" alt="Contenta logo" title="Contenta logo" width="100">
-</h1>
+<h1>Eureka project</h1>
 
-This repository is used in order to create a Contenta CMS project using Composer.
+This project is based on the <a href="https://github.com/contentacms/contenta_jsonapi_project"> Contenta CMS boilerplate</a>.
 
-If you want to learn how to install Contenta CMS visit http://www.contentacms.org/#install. If you
-want documentation about Contenta CMS visit http://www.contentacms.org.
+<h3>Additional information.</h3>
+
+Updating Drupal Core in a Contenta CMS.
+
+```composer update drupal/core webflo/drupal-core-require-dev --with-dependencies```

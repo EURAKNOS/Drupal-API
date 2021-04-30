@@ -9,7 +9,6 @@ is_admin: false
 permissions:
   - 'access comments'
   - 'access content'
-  - 'access openapi api docs'
   - 'access user profiles'
   - 'administer rest menu items'
   - 'administer views'
