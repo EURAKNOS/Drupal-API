@@ -32,6 +32,7 @@
         "drupal/core-composer-scaffold": "^9.0",
         "drupal/devel": "^4.1",
         "drupal/jsonapi_menu_items": "^1.1",
+        "drupal/jsonapi_user_resources": "^1.0@alpha",
         "drupal/openapi_ui_swagger": "^1.0@RC",
         "drupal/pathauto": "^1.8",
         "drupal/profile": "^1.2",
