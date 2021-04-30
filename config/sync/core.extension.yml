@@ -78,7 +78,6 @@ module:
   translated_config: 0
   update: 0
   user: 0
-  user_registrationpassword: 0
   views: 0
   votingapi: 0
   warmer: 0
