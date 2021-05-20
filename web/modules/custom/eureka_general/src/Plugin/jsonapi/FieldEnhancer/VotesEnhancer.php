@@ -2,6 +2,7 @@
 
 namespace Drupal\eureka_general\Plugin\jsonapi\FieldEnhancer;
 
+use Drupal\Core\Cache\Cache;
 use Drupal\Core\Plugin\ContainerFactoryPluginInterface;
 use Drupal\jsonapi_extras\Plugin\ResourceFieldEnhancerBase;
 use Drupal\node\Entity\Node;
@@ -51,6 +52,8 @@ class VotesEnhancer extends ResourceFieldEnhancerBase implements ContainerFactor
       $entity = $entity_repository->loadEntityByUuid('node', $uuid);
 
       // Get the votes of the current node.
+      $tags = ['node:' . $entity->id()];
+      Cache::invalidateTags($tags);
       $voting_service->recalculateResults('node', $entity->id(), 'updown');
       $votes = $voting_service->getResults('node', $entity->id());
       $votes = is_array($votes) ? reset($votes) : NULL;
