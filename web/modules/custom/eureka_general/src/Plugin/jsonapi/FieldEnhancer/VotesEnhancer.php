@@ -41,7 +41,6 @@ class VotesEnhancer extends ResourceFieldEnhancerBase implements ContainerFactor
 
     /** @var \Drupal\votingapi\VoteResultFunctionManager $voting_service */
     $voting_service = \Drupal::service('plugin.manager.votingapi.resultfunction');
-
     // Get the node's UUID out of the route.
     $uuid = \Drupal::routeMatch()->getRawParameter('entity');
 
@@ -52,6 +51,7 @@ class VotesEnhancer extends ResourceFieldEnhancerBase implements ContainerFactor
       $entity = $entity_repository->loadEntityByUuid('node', $uuid);
 
       // Get the votes of the current node.
+      $voting_service->recalculateResults('node', $entity->id(), 'updown');
       $votes = $voting_service->getResults('node', $entity->id());
       $votes = is_array($votes) ? reset($votes) : NULL;
 
