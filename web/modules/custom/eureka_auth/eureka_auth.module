@@ -35,27 +35,31 @@ function  eureka_auth_tokens($type, $tokens, array $data, array $options, Bubble
     foreach ($tokens as $name => $original) {
       switch ($name) {
         case 'registration-url':
-          $url = Url::fromUri($front_end_base_url);
+          if ($front_end_base_url) {
+            $url = Url::fromUri($front_end_base_url);
 
-          $url->setOption('query',
-            [
-              'redirect_from' => user_registrationpassword_confirmation_url($data['user'], $options),
-            ]
-          );
-          $replacements[$original] = $url->toString();
+            $url->setOption('query',
+              [
+                'redirect_from' => user_registrationpassword_confirmation_url($data['user'], $options),
+              ]
+            );
+            $replacements[$original] = $url->toString();
+          }
 
           break;
 
         case 'one-time-login':
-          $url = Url::fromUri($front_end_base_url);
+          if ($front_end_base_url) {
+            $url = Url::fromUri($front_end_base_url);
 
-          $url->setOption('query',
-            [
-              'redirect_from' => user_pass_reset_url($data['user'], $options),
-            ]
-          );
+            $url->setOption('query',
+              [
+                'redirect_from' => user_pass_reset_url($data['user'], $options),
+              ]
+            );
 
-          $replacements[$original] = $url->toString();
+            $replacements[$original] = $url->toString();
+          }
 
           break;
       }
