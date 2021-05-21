@@ -92,14 +92,20 @@ class VoteResults extends ResourceBase {
     $entity_repository = \Drupal::service('entity.repository');
 
     if ($uuid) {
-      $entity = $entity_repository->loadEntityByUuid('node', $uuid);
+      $entity_type = 'node';
+      $entity = $entity_repository->loadEntityByUuid($entity_type, $uuid);
+
+      if (!$entity) {
+        $entity_type = 'comment';
+        $entity = $entity_repository->loadEntityByUuid($entity_type, $uuid);
+      }
 
       if ($entity) {
         $votes = 0;
 
         $results = \Drupal::database()->select('votingapi_vote', 'v')
           ->fields('v', ['value'])
-          ->condition('entity_type', 'node')
+          ->condition('entity_type', $entity_type)
           ->condition('entity_id', $entity->id())
           ->execute();
 
