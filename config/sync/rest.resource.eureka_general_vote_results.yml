@@ -1,0 +1,18 @@
+uuid: d9fdc2fd-cd8c-49e8-a2d8-3279141da7b8
+langcode: en
+status: true
+dependencies:
+  module:
+    - eureka_general
+    - serialization
+    - user
+id: eureka_general_vote_results
+plugin_id: eureka_general_vote_results
+granularity: resource
+configuration:
+  methods:
+    - GET
+  formats:
+    - json
+  authentication:
+    - cookie
