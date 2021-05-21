@@ -95,12 +95,18 @@ class VoteResults extends ResourceBase {
       $entity = $entity_repository->loadEntityByUuid('node', $uuid);
 
       if ($entity) {
-        $voting_service->recalculateResults('node', $entity->id(), 'updown');
-        $votes = $voting_service->getResults('node', $entity->id());
-        $votes = is_array($votes) ? reset($votes) : NULL;
-        $data['test'] = $entity->id();
+        $votes = 0;
 
-        if ($votes) {
+        $results = \Drupal::database()->select('votingapi_vote', 'v')
+          ->fields('v', ['value'])
+          ->condition('entity_type', 'node')
+          ->condition('entity_id', $entity->id())
+          ->execute();
+
+        foreach ($results->fetchAssoc() as $result) {
+          $votes += (int)$result;
+        }
+
           // Look for existing votes on the node by the current user.
           $user_votes = \Drupal::entityTypeManager()->getStorage('vote')->loadByProperties([
             'type' => 'updown',
@@ -113,25 +119,17 @@ class VoteResults extends ResourceBase {
           $user_vote = reset($user_votes);
 
           $data = [
-            'entity_id' => $entity->id(),
-            'total_votes' => isset($votes['vote_count']) ? $votes['vote_count'] : NULL,
-            'average_votes' => isset($votes['vote_average']) ? $votes['vote_average'] : NULL,
-            'sum' => isset($votes['vote_sum']) ? $votes['vote_sum'] : NULL,
-            'count_up' => isset($votes['rate_count_up']) ? $votes['rate_count_up'] : NULL,
+            'sum' => $votes,
             'user_vote_id' => $user_vote ? $user_vote->id() : '',
             'user_vote_source' => $user_vote ? $user_vote->getSource() : '',
           ];
-        }
       }
     }
-
-    $tags = \Drupal::entityTypeManager()->getDefinition('vote')->getListCacheTags();
 
     $response = new ResourceResponse($data);
 
     $disable_cache = new CacheableMetadata();
-    $disable_cache->addCacheTags($tags);
-
+    $disable_cache->setCacheMaxAge(0);
     $response->addCacheableDependency($disable_cache);
 
     // Return the JSON response.
