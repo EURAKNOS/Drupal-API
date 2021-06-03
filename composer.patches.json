@@ -3,8 +3,8 @@
     "drupal/core": {
       "X-CSRF-Token request header is missing when using Bearer authentication": "https://www.drupal.org/files/issues/2021-01-04/3055260-add-additional-condition-to-csrf-check-32.patch"
     },
-    "drupal/rate": {
-      "EntityTypeManagerInterface not defined": "https://www.drupal.org/files/issues/2021-02-19/EntityTypeManagerInterface_not_defined-3198372-4.patch"
+    "drupal/votingapi": {
+      "x": "https://www.drupal.org/files/issues/2020-12-03/2988057-15.patch"
     }
   }
 }

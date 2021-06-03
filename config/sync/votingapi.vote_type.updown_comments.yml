@@ -1,0 +1,12 @@
+uuid: a7310e7f-3f79-4fc1-be12-98cc68a81a18
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - rate
+id: updown_comments
+label: updown_comments
+value_type: points
+entity_type: comment
+description: ''

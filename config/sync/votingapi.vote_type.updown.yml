@@ -10,4 +10,5 @@ _core:
 id: updown
 label: Up/Down
 value_type: points
+entity_type: node
 description: 'A simple up or down vote.'
