@@ -93,10 +93,14 @@ class VoteResults extends ResourceBase {
 
     if ($uuid) {
       $entity_type = 'node';
+      $vote_type =  'updown';
       $entity = $entity_repository->loadEntityByUuid($entity_type, $uuid);
+
 
       if (!$entity) {
         $entity_type = 'comment';
+        $vote_type = 'updown_comments';
+
         $entity = $entity_repository->loadEntityByUuid($entity_type, $uuid);
       }
 
@@ -115,7 +119,7 @@ class VoteResults extends ResourceBase {
 
           // Look for existing votes on the node by the current user.
           $user_votes = \Drupal::entityTypeManager()->getStorage('vote')->loadByProperties([
-            'type' => 'updown',
+            'type' => $vote_type,
             'entity_id' => $entity->id(),
             'user_id' => \Drupal::currentUser()->id(),
           ]);
