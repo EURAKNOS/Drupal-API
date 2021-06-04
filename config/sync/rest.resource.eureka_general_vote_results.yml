@@ -1,10 +1,11 @@
-uuid: d9fdc2fd-cd8c-49e8-a2d8-3279141da7b8
+uuid: 7725819d-52c9-4224-a8b4-f19d7a0dd141
 langcode: en
 status: true
 dependencies:
   module:
     - eureka_general
     - serialization
+    - simple_oauth
     - user
 id: eureka_general_vote_results
 plugin_id: eureka_general_vote_results
@@ -15,4 +16,5 @@ configuration:
   formats:
     - json
   authentication:
+    - oauth2
     - cookie

@@ -98,23 +98,25 @@ class VoteResults extends ResourceBase {
 
 
       if (!$entity) {
-        $entity_type = 'comment';
+        $entity_type = 'comments';
         $vote_type = 'updown_comments';
 
-        $entity = $entity_repository->loadEntityByUuid($entity_type, $uuid);
+        $entity = $entity_repository->loadEntityByUuid('comment', $uuid);
       }
 
       if ($entity) {
         $votes = 0;
+        $id = (int)$entity->id();
 
         $results = \Drupal::database()->select('votingapi_vote', 'v')
           ->fields('v', ['value'])
           ->condition('entity_type', $entity_type)
-          ->condition('entity_id', $entity->id())
+          ->condition('entity_id', $id)
+          ->condition('type', $vote_type)
           ->execute();
 
-        foreach ($results->fetchAssoc() as $result) {
-          $votes += (int)$result;
+        foreach ($results->fetchAll() as $result) {
+          $votes += (int)$result->value;
         }
 
           // Look for existing votes on the node by the current user.
@@ -129,6 +131,9 @@ class VoteResults extends ResourceBase {
           $user_vote = reset($user_votes);
 
           $data = [
+            'type' => $vote_type,
+            'entity_id' => $id,
+            'entity_type' => $entity_type,
             'sum' => $votes,
             'user_vote_id' => $user_vote ? $user_vote->id() : '',
             'user_vote_source' => $user_vote ? $user_vote->getSource() : '',
