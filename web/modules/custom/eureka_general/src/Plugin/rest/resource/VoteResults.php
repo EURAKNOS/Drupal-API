@@ -98,7 +98,7 @@ class VoteResults extends ResourceBase {
 
 
       if (!$entity) {
-        $entity_type = 'comments';
+        $entity_type = 'comment';
         $vote_type = 'updown_comments';
 
         $entity = $entity_repository->loadEntityByUuid('comment', $uuid);
@@ -141,14 +141,13 @@ class VoteResults extends ResourceBase {
       }
     }
 
-    $response = new ResourceResponse($data);
+    $build = array(
+      '#cache' => array(
+        'max-age' => 0,
+      ),
+    );
 
-    $disable_cache = new CacheableMetadata();
-    $disable_cache->setCacheMaxAge(0);
-    $response->addCacheableDependency($disable_cache);
-
-    // Return the JSON response.
-    return $response;
+    return (new ResourceResponse($data))->addCacheableDependency($build);
   }
 
 }
