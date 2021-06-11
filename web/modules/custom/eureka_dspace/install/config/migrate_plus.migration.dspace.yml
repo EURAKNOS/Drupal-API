@@ -11,9 +11,9 @@ migration_group: dspace
 label: 'Migrates all Dspace items.'
 source:
   plugin: url
-  data_fetcher_plugin: file
-  data_parser_plugin: json
-  urls: modules/custom/eureka_dspace/dspace.json
+  data_fetcher_plugin: http
+  data_parser_plugin: dspace
+  urls: 'http://api.dspace.poc.euraknos.cf/server/api/core/items?size=400'
   item_selector: /_embedded/items
   fields:
     -
@@ -33,13 +33,13 @@ source:
       label: available
       selector: metadata/dc.date.available/0/value
     -
-      name: dc.date.provenance
+      name: dc.description.provenance
       label: provenance
-      selector: metadata/dc.date.provenance/0/value
+      selector: metadata/dc.description.provenance/0/value
     -
-      name: dc.date.uri
+      name: dc.identifier.uri
       label: uri
-      selector: metadata/dc.date.uri/0/value
+      selector: metadata/dc.identifier.uri/0/value
     -
       name: checksum
       label: checksum
@@ -52,6 +52,10 @@ source:
       name: content.location
       label: location
       selector: metadata/knowledgeobject.content.location/0/value
+    -
+      name: creator
+      label: creator
+      selector: metadata/knowledgeobject.creator/0/value
     -
       name: datecreated
       label: datecreated
@@ -140,12 +144,12 @@ process:
     source: dc.date.available
     plugin: get
     language: en
-  field_dc_date_provenance:
-    source: dc.date.provenance
+  field_dc_description_provenance:
+    source: dc.description.provenance
     plugin: get
     language: en
-  field_dc_date_uri:
-    source: dc.date.uri
+  field_dc_identifier_uri:
+    source: dc.identifier.uri
     plugin: get
     language: en
   field_checksum: checksum
