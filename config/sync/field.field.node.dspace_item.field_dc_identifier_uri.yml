@@ -1,0 +1,19 @@
+uuid: 95fb660d-f060-4f3d-abad-ce8afcb88b5a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_dc_identifier_uri
+    - node.type.dspace_item
+id: node.dspace_item.field_dc_identifier_uri
+field_name: field_dc_identifier_uri
+entity_type: node
+bundle: dspace_item
+label: dc_identifier_uri
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,5219 @@
+{
+  "_embedded": {
+    "items": [
+      {
+        "id": "0021f028-e2cd-4de0-8d69-bb2df24d355f",
+        "uuid": "0021f028-e2cd-4de0-8d69-bb2df24d355f",
+        "name": null,
+        "handle": "123456789/688",
+        "metadata": {
+          "dc.date.accessioned": [
+            {
+              "value": "2021-05-31T17:34:25Z",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.date.available": [
+            {
+              "value": "2021-05-31T17:34:25Z",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.description.provenance": [
+            {
+              "value": "Made available in DSpace on 2021-05-31T17:34:25Z (GMT). No. of bitstreams: 1\nPractical_aspects_related_to_agroforestry_implementation_in_Flanders_PA_AFINET_EN.pdf: 28684 bytes, checksum: acac47c9ec358e4f39572d1b9c7f0d96 (MD5)",
+              "language": "en",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.identifier.uri": [
+            {
+              "value": "http://dspace-angular:4000/handle/123456789/688",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.checksum": [
+            {
+              "value": "acac47c9ec358e4f39572d1b9c7f0d96",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.content.language": [
+            {
+              "value": "English",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.content.location": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.creator": [
+            {
+              "value": "AFINET",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.datecreated": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.dateextracted": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.description": [
+            {
+              "value": "A practice abstract for practical aspects related to agroforestry implementation in Flanders",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.fileformat": [
+            {
+              "value": "pdf",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.filesize": [
+            {
+              "value": "29 KB",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.keywords": [
+            {
+              "value": "farming practice; climate and climate change; animal husbandry and welfare; landscape; land management; pest and disease control; soil management and functionality; forestry farming; forestry competitiveness and diversification; supply chain marketing and consumption",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.license": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.purpose": [
+            {
+              "value": "dissemination; education/training",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.acronym": [
+            {
+              "value": "AFINET",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.domain": [
+            {
+              "value": "Forestry",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.fullname": [
+            {
+              "value": "Agroforestry Innovation Networks",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.url": [
+            {
+              "value": "https://euraf.isa.utl.pt/afinet",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.title": [
+            {
+              "value": "Practical aspects related to agroforestry implementation in Flanders",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.topic": [
+            {
+              "value": "forestry practices; animal husbandry and welfare practices",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.type": [
+            {
+              "value": "Practice abstract",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.url": [
+            {
+              "value": "https://ec.europa.eu/eip/agriculture/en/find-connect/projects/afinet-red-de-innovaci%C3%B3n-agroforestal-1-8",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ]
+        },
+        "inArchive": true,
+        "discoverable": true,
+        "withdrawn": false,
+        "lastModified": "2021-05-31T17:34:25.564+0000",
+        "type": "item",
+        "_links": {
+          "bundles": {
+            "href": "http://localhost:8080/server/api/core/items/0021f028-e2cd-4de0-8d69-bb2df24d355f/bundles"
+          },
+          "mappedCollections": {
+            "href": "http://localhost:8080/server/api/core/items/0021f028-e2cd-4de0-8d69-bb2df24d355f/mappedCollections"
+          },
+          "owningCollection": {
+            "href": "http://localhost:8080/server/api/core/items/0021f028-e2cd-4de0-8d69-bb2df24d355f/owningCollection"
+          },
+          "relationships": {
+            "href": "http://localhost:8080/server/api/core/items/0021f028-e2cd-4de0-8d69-bb2df24d355f/relationships"
+          },
+          "version": {
+            "href": "http://localhost:8080/server/api/core/items/0021f028-e2cd-4de0-8d69-bb2df24d355f/version"
+          },
+          "templateItemOf": {
+            "href": "http://localhost:8080/server/api/core/items/0021f028-e2cd-4de0-8d69-bb2df24d355f/templateItemOf"
+          },
+          "self": {
+            "href": "http://localhost:8080/server/api/core/items/0021f028-e2cd-4de0-8d69-bb2df24d355f"
+          }
+        }
+      },
+      {
+        "id": "00257ac3-7c0c-408e-9716-897d630ae13f",
+        "uuid": "00257ac3-7c0c-408e-9716-897d630ae13f",
+        "name": null,
+        "handle": "123456789/450",
+        "metadata": {
+          "dc.date.accessioned": [
+            {
+              "value": "2021-05-31T17:19:15Z",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.date.available": [
+            {
+              "value": "2021-05-31T17:19:15Z",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.description.provenance": [
+            {
+              "value": "Made available in DSpace on 2021-05-31T17:19:15Z (GMT). No. of bitstreams: 0",
+              "language": "en",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.identifier.uri": [
+            {
+              "value": "http://dspace-angular:4000/handle/123456789/450",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.checksum": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.content.language": [
+            {
+              "value": "English",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.content.location": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.creator": [
+            {
+              "value": "EURAKNOS",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.datecreated": [
+            {
+              "value": "2020-04-02",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.dateextracted": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.description": [
+            {
+              "value": "A brief description of the DISARM Thematic Network and its activities by Laura Palczynski.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.fileformat": [
+            {
+              "value": ".mp3",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.filesize": [
+            {
+              "value": "8.3 MB",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.filetype": [
+            {
+              "value": "audio",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.keywords": [
+            {
+              "value": "agricultural production system; farming practice; farming equipment and machinery; animal husbandry and welfare; pest/disease control; genetic resources; water management; food quality/processing and nutrition; antibiotic resistance",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.license": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.purpose": [
+            {
+              "value": "communication",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.acronym": [
+            {
+              "value": "EURAKNOS",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.domain": [
+            {
+              "value": "Animal Husbandry and Welfare",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.fullname": [
+            {
+              "value": "Connecting Thematic Networks as Knowledge Reservoirs: towards a European Agricultural Knowledge Innovation Open Source System",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.url": [
+            {
+              "value": "https://www.euraknos.eu/",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.title": [
+            {
+              "value": "DISARM: Innovative Solutions for Antibiotic Resistance Management",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.topic": [
+            {
+              "value": "animal husbandry and welfare practices; animal husbandry and welfare actors; animal husbandry and welfare systems; types of animals; animal husbandry and welfare infrastructures; animal husbandry and welfare tools; animal husbandry and welfare digital technologies",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.type": [
+            {
+              "value": "interview",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.url": [
+            {
+              "value": "https://open.spotify.com/episode/7JZ0vRmT8ygd758nViXAbH",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ]
+        },
+        "inArchive": true,
+        "discoverable": true,
+        "withdrawn": false,
+        "lastModified": "2021-05-31T17:19:15.703+0000",
+        "type": "item",
+        "_links": {
+          "bundles": {
+            "href": "http://localhost:8080/server/api/core/items/00257ac3-7c0c-408e-9716-897d630ae13f/bundles"
+          },
+          "mappedCollections": {
+            "href": "http://localhost:8080/server/api/core/items/00257ac3-7c0c-408e-9716-897d630ae13f/mappedCollections"
+          },
+          "owningCollection": {
+            "href": "http://localhost:8080/server/api/core/items/00257ac3-7c0c-408e-9716-897d630ae13f/owningCollection"
+          },
+          "relationships": {
+            "href": "http://localhost:8080/server/api/core/items/00257ac3-7c0c-408e-9716-897d630ae13f/relationships"
+          },
+          "version": {
+            "href": "http://localhost:8080/server/api/core/items/00257ac3-7c0c-408e-9716-897d630ae13f/version"
+          },
+          "templateItemOf": {
+            "href": "http://localhost:8080/server/api/core/items/00257ac3-7c0c-408e-9716-897d630ae13f/templateItemOf"
+          },
+          "self": {
+            "href": "http://localhost:8080/server/api/core/items/00257ac3-7c0c-408e-9716-897d630ae13f"
+          }
+        }
+      },
+      {
+        "id": "008d5584-f4f1-4315-8705-2fc21e233819",
+        "uuid": "008d5584-f4f1-4315-8705-2fc21e233819",
+        "name": null,
+        "handle": "123456789/101",
+        "metadata": {
+          "dc.date.accessioned": [
+            {
+              "value": "2021-05-31T16:59:16Z",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.date.available": [
+            {
+              "value": "2021-05-31T16:59:16Z",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.description.provenance": [
+            {
+              "value": "Made available in DSpace on 2021-05-31T16:59:16Z (GMT). No. of bitstreams: 1\nafinet_brochure_final.pdf: 281583 bytes, checksum: 5b368c56ab8cb545f58679ed54b47d94 (MD5)",
+              "language": "en",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.identifier.uri": [
+            {
+              "value": "http://dspace-angular:4000/handle/123456789/101",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.checksum": [
+            {
+              "value": "5b368c56ab8cb545f58679ed54b47d94",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.content.language": [
+            {
+              "value": "English",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.content.location": [
+            {
+              "value": "Ν.Α.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.creator": [
+            {
+              "value": "AFINET",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.datecreated": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.dateextracted": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.description": [
+            {
+              "value": "A brochure for AFINET",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.fileformat": [
+            {
+              "value": "pdf",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.filesize": [
+            {
+              "value": "274 KB",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.filetype": [
+            {
+              "value": "document",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.keywords": [
+            {
+              "value": "AFINET; agroforestry",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.license": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.purpose": [
+            {
+              "value": "Broch",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.acronym": [
+            {
+              "value": "AFINET",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.domain": [
+            {
+              "value": "Forestry",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.fullname": [
+            {
+              "value": "Agroforestry Innovation Networks",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.url": [
+            {
+              "value": "https://euraf.isa.utl.pt/afinet",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.title": [
+            {
+              "value": "WHAT IS AFINET?",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.topic": [
+            {
+              "value": "environment; forestry practices; forestry actors",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.type": [
+            {
+              "value": "brochure",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.url": [
+            {
+              "value": "https://euraf.isa.utl.pt/files/pub/afinet_brochure_final.pdf",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ]
+        },
+        "inArchive": true,
+        "discoverable": true,
+        "withdrawn": false,
+        "lastModified": "2021-05-31T16:59:16.488+0000",
+        "type": "item",
+        "_links": {
+          "bundles": {
+            "href": "http://localhost:8080/server/api/core/items/008d5584-f4f1-4315-8705-2fc21e233819/bundles"
+          },
+          "mappedCollections": {
+            "href": "http://localhost:8080/server/api/core/items/008d5584-f4f1-4315-8705-2fc21e233819/mappedCollections"
+          },
+          "owningCollection": {
+            "href": "http://localhost:8080/server/api/core/items/008d5584-f4f1-4315-8705-2fc21e233819/owningCollection"
+          },
+          "relationships": {
+            "href": "http://localhost:8080/server/api/core/items/008d5584-f4f1-4315-8705-2fc21e233819/relationships"
+          },
+          "version": {
+            "href": "http://localhost:8080/server/api/core/items/008d5584-f4f1-4315-8705-2fc21e233819/version"
+          },
+          "templateItemOf": {
+            "href": "http://localhost:8080/server/api/core/items/008d5584-f4f1-4315-8705-2fc21e233819/templateItemOf"
+          },
+          "self": {
+            "href": "http://localhost:8080/server/api/core/items/008d5584-f4f1-4315-8705-2fc21e233819"
+          }
+        }
+      },
+      {
+        "id": "00b518c8-98f3-4cf4-afd1-0305f6961ffe",
+        "uuid": "00b518c8-98f3-4cf4-afd1-0305f6961ffe",
+        "name": null,
+        "handle": "123456789/478",
+        "metadata": {
+          "dc.date.accessioned": [
+            {
+              "value": "2021-05-31T17:21:23Z",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.date.available": [
+            {
+              "value": "2021-05-31T17:21:23Z",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.description.provenance": [
+            {
+              "value": "Made available in DSpace on 2021-05-31T17:21:23Z (GMT). No. of bitstreams: 0",
+              "language": "en",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.identifier.uri": [
+            {
+              "value": "http://dspace-angular:4000/handle/123456789/478",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.checksum": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.content.language": [
+            {
+              "value": "English",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.content.location": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.creator": [
+            {
+              "value": "Inno4Grass",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.datecreated": [
+            {
+              "value": "2019-02-07",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.dateextracted": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.description": [
+            {
+              "value": "Sowing grass and legumes seeds separately, perpendicular to each other in order to obtain uniform grass-legume sward. There is a high share of legumes in the sward, which amounts to 40% or even 50%. Sowing grasses and legumes together does not guarantee obtaining uniform grass-legume sward.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.fileformat": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.filesize": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.filetype": [
+            {
+              "value": "video",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.keywords": [
+            {
+              "value": "biodiversity and nature management; farming practice; animal husbandry and welfare; supply chain; marketing and consumption; food quality; food processing; nutrition; water management; fertilisation and nutrients management; plant production and horticulture; farming equipment and machinery.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.license": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.purpose": [
+            {
+              "value": "communication",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.acronym": [
+            {
+              "value": "Inno4Grass",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.domain": [
+            {
+              "value": "Animal Husbandry & Welfare",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.fullname": [
+            {
+              "value": "Shared Innovation Space for Sustainable Productivity of Grasslands in Europe",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.url": [
+            {
+              "value": "https://inno4grass.eu/en/",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.title": [
+            {
+              "value": "Sowing grasses and legumes a cross",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.topic": [
+            {
+              "value": "animal husbandry and welfare practices; crop farming systems",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.type": [
+            {
+              "value": "guide",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.url": [
+            {
+              "value": "https://www.youtube.com/watch?v=KXBex2TfXbw",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ]
+        },
+        "inArchive": true,
+        "discoverable": true,
+        "withdrawn": false,
+        "lastModified": "2021-05-31T17:21:23.131+0000",
+        "type": "item",
+        "_links": {
+          "bundles": {
+            "href": "http://localhost:8080/server/api/core/items/00b518c8-98f3-4cf4-afd1-0305f6961ffe/bundles"
+          },
+          "mappedCollections": {
+            "href": "http://localhost:8080/server/api/core/items/00b518c8-98f3-4cf4-afd1-0305f6961ffe/mappedCollections"
+          },
+          "owningCollection": {
+            "href": "http://localhost:8080/server/api/core/items/00b518c8-98f3-4cf4-afd1-0305f6961ffe/owningCollection"
+          },
+          "relationships": {
+            "href": "http://localhost:8080/server/api/core/items/00b518c8-98f3-4cf4-afd1-0305f6961ffe/relationships"
+          },
+          "version": {
+            "href": "http://localhost:8080/server/api/core/items/00b518c8-98f3-4cf4-afd1-0305f6961ffe/version"
+          },
+          "templateItemOf": {
+            "href": "http://localhost:8080/server/api/core/items/00b518c8-98f3-4cf4-afd1-0305f6961ffe/templateItemOf"
+          },
+          "self": {
+            "href": "http://localhost:8080/server/api/core/items/00b518c8-98f3-4cf4-afd1-0305f6961ffe"
+          }
+        }
+      },
+      {
+        "id": "0123074e-753d-4a23-9752-484a74656212",
+        "uuid": "0123074e-753d-4a23-9752-484a74656212",
+        "name": null,
+        "handle": "123456789/547",
+        "metadata": {
+          "dc.date.accessioned": [
+            {
+              "value": "2021-05-31T17:21:37Z",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.date.available": [
+            {
+              "value": "2021-05-31T17:21:37Z",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.description.provenance": [
+            {
+              "value": "Made available in DSpace on 2021-05-31T17:21:37Z (GMT). No. of bitstreams: 0",
+              "language": "en",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.identifier.uri": [
+            {
+              "value": "http://dspace-angular:4000/handle/123456789/547",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.checksum": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.content.language": [
+            {
+              "value": "Dutch",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.content.location": [
+            {
+              "value": "Belgium",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.creator": [
+            {
+              "value": "4D4F",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.datecreated": [
+            {
+              "value": "2017-01-10",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.dateextracted": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.description": [
+            {
+              "value": "Interview with Johan & Mieke Logghe-Desmet (Gistel, Belgium)",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.fileformat": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.filesize": [
+            {
+              "value": "Ν.Α.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.filetype": [
+            {
+              "value": "video",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.keywords": [
+            {
+              "value": "best practice; data-driven agriculture; knowledge exchange; cow farm",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.license": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.purpose": [
+            {
+              "value": "dissemination",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.acronym": [
+            {
+              "value": "4D4F",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.domain": [
+            {
+              "value": "Animal Husbandry and Welfare",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.fullname": [
+            {
+              "value": "Data Driven Dairy Decisions 4 Farmers",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.url": [
+            {
+              "value": "https://4d4f.eu/",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.title": [
+            {
+              "value": "Portrait of a Farm II",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.topic": [
+            {
+              "value": "animal husbandry and welfare practices; animal husbandry and welfare infrastructures; animal husbandry and welfare tools; animal husbandry and welfare digital technologies",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.type": [
+            {
+              "value": "interview video",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.url": [
+            {
+              "value": "https://www.youtube.com/watch?v=6_c_K1PzjRM",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ]
+        },
+        "inArchive": true,
+        "discoverable": true,
+        "withdrawn": false,
+        "lastModified": "2021-05-31T17:21:37.174+0000",
+        "type": "item",
+        "_links": {
+          "bundles": {
+            "href": "http://localhost:8080/server/api/core/items/0123074e-753d-4a23-9752-484a74656212/bundles"
+          },
+          "mappedCollections": {
+            "href": "http://localhost:8080/server/api/core/items/0123074e-753d-4a23-9752-484a74656212/mappedCollections"
+          },
+          "owningCollection": {
+            "href": "http://localhost:8080/server/api/core/items/0123074e-753d-4a23-9752-484a74656212/owningCollection"
+          },
+          "relationships": {
+            "href": "http://localhost:8080/server/api/core/items/0123074e-753d-4a23-9752-484a74656212/relationships"
+          },
+          "version": {
+            "href": "http://localhost:8080/server/api/core/items/0123074e-753d-4a23-9752-484a74656212/version"
+          },
+          "templateItemOf": {
+            "href": "http://localhost:8080/server/api/core/items/0123074e-753d-4a23-9752-484a74656212/templateItemOf"
+          },
+          "self": {
+            "href": "http://localhost:8080/server/api/core/items/0123074e-753d-4a23-9752-484a74656212"
+          }
+        }
+      },
+      {
+        "id": "022a3165-717c-4ce3-9c84-d53c469e465c",
+        "uuid": "022a3165-717c-4ce3-9c84-d53c469e465c",
+        "name": null,
+        "handle": "123456789/247",
+        "metadata": {
+          "dc.date.accessioned": [
+            {
+              "value": "2021-05-31T17:07:30Z",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.date.available": [
+            {
+              "value": "2021-05-31T17:07:30Z",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.description.provenance": [
+            {
+              "value": "Made available in DSpace on 2021-05-31T17:07:30Z (GMT). No. of bitstreams: 1\n467.pdf: 1025653 bytes, checksum: dbfe823e81dae6b1c4fce2e659d57fce (MD5)",
+              "language": "en",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.identifier.uri": [
+            {
+              "value": "http://dspace-angular:4000/handle/123456789/247",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.checksum": [
+            {
+              "value": "dbfe823e81dae6b1c4fce2e659d57fce",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.content.language": [
+            {
+              "value": "English",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.content.location": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.creator": [
+            {
+              "value": "Smart-AKIS",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.datecreated": [
+            {
+              "value": "2018-04-03",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.dateextracted": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.description": [
+            {
+              "value": "Near-range and remote sensing techniques have demonstrated a high potential in detecting diseases and in monitoring crop stands for sub-areas with infected plants. The occurrence of plant diseases depends on specific environmental and epidemiological factors; diseases, therefore, often have a patchydistribution in the field. This reviewoutlines recent insights in the use of non-invasive optical sensors for the detection, identification and quantification of plant diseases on different scales. Most promising sensor types are thermography, chlorophyll fluorescence and hyperspectral sensors. For the detection and monitoring of plant disease, imaging systems are preferable to non-imaging systems.Differences and keybenefits of these techniques are outlined. To utilise the full potential of these highlysophisticated, innovative technologies and high dimensional, complexdata for precision crop protection, a multi-disciplinary approach (including plant pathology, engineering, and informatics) is required. Besides precision crop protection, plant phenotyping for resistance breeding or fungicide screening can be optimized bythese innovative technologies. (It also refers to a scientific article).",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.fileformat": [
+            {
+              "value": "pdf",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.filesize": [
+            {
+              "value": "1 MB",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.filetype": [
+            {
+              "value": "document",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.keywords": [
+            {
+              "value": "farming practice; farming equipment and machinery; plant production and horticulture; AKIS; precision agriculture; smart farming technologies (SFT); precision crop protection",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.license": [
+            {
+              "value": "https://creativecommons.org/licenses/by/4.0/",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.purpose": [
+            {
+              "value": "dissemination",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.acronym": [
+            {
+              "value": "Smart-AKIS",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.domain": [
+            {
+              "value": "Crop Farming",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.fullname": [
+            {
+              "value": "European Agricultural Knowledge and Innovation Systems (AKIS) towards innovation-driven research in Smart Farming Technology",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.url": [
+            {
+              "value": "https://www.smart-akis.com/",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.title": [
+            {
+              "value": "Recent advances in sensing plant diseases for precision crop protection",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.topic": [
+            {
+              "value": "crop farming actors; crop farming tools; crop farming digital technologies",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.type": [
+            {
+              "value": "technical information/specifications card",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.url": [
+            {
+              "value": "https://www.smart-akis.com/wp-content/uploads/techhtmpdf/467.pdf",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ]
+        },
+        "inArchive": true,
+        "discoverable": true,
+        "withdrawn": false,
+        "lastModified": "2021-05-31T17:07:30.141+0000",
+        "type": "item",
+        "_links": {
+          "bundles": {
+            "href": "http://localhost:8080/server/api/core/items/022a3165-717c-4ce3-9c84-d53c469e465c/bundles"
+          },
+          "mappedCollections": {
+            "href": "http://localhost:8080/server/api/core/items/022a3165-717c-4ce3-9c84-d53c469e465c/mappedCollections"
+          },
+          "owningCollection": {
+            "href": "http://localhost:8080/server/api/core/items/022a3165-717c-4ce3-9c84-d53c469e465c/owningCollection"
+          },
+          "relationships": {
+            "href": "http://localhost:8080/server/api/core/items/022a3165-717c-4ce3-9c84-d53c469e465c/relationships"
+          },
+          "version": {
+            "href": "http://localhost:8080/server/api/core/items/022a3165-717c-4ce3-9c84-d53c469e465c/version"
+          },
+          "templateItemOf": {
+            "href": "http://localhost:8080/server/api/core/items/022a3165-717c-4ce3-9c84-d53c469e465c/templateItemOf"
+          },
+          "self": {
+            "href": "http://localhost:8080/server/api/core/items/022a3165-717c-4ce3-9c84-d53c469e465c"
+          }
+        }
+      },
+      {
+        "id": "02a5ec93-2013-4c23-8d01-34ca8e1b1ba3",
+        "uuid": "02a5ec93-2013-4c23-8d01-34ca8e1b1ba3",
+        "name": null,
+        "handle": "123456789/566",
+        "metadata": {
+          "dc.date.accessioned": [
+            {
+              "value": "2021-05-31T17:21:40Z",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.date.available": [
+            {
+              "value": "2021-05-31T17:21:40Z",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.description.provenance": [
+            {
+              "value": "Made available in DSpace on 2021-05-31T17:21:40Z (GMT). No. of bitstreams: 0",
+              "language": "en",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.identifier.uri": [
+            {
+              "value": "http://dspace-angular:4000/handle/123456789/566",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.checksum": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.content.language": [
+            {
+              "value": "French",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.content.location": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.creator": [
+            {
+              "value": "SHEEPNET",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.datecreated": [
+            {
+              "value": "2018-03-16",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.dateextracted": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.description": [
+            {
+              "value": "Method for collecting droppings from ewes for performing coproscopies.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.fileformat": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.filesize": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.filetype": [
+            {
+              "value": "video",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.keywords": [
+            {
+              "value": "animal husbandry; meat production; animal husbandry and welfare animal equipment; animal health; farming practice; best practice; knowledge exchnge",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.license": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.purpose": [
+            {
+              "value": "dissemination; education/training",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.acronym": [
+            {
+              "value": "SHEEPNET",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.domain": [
+            {
+              "value": "Animal Husbandry & Welfare",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.fullname": [
+            {
+              "value": "SHaring Expertise and Experience towards sheep Productivity through NETworking",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.url": [
+            {
+              "value": "http://www.sheepnet.network/",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.title": [
+            {
+              "value": "SheepNet Solution - A7 - droppings collection",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.topic": [
+            {
+              "value": "animal husbandry and welfare practices; animal husbandry and welfare systems",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.type": [
+            {
+              "value": "educational/training video",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.url": [
+            {
+              "value": "https://www.youtube.com/watch?v=kP-8hErHLVc",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ]
+        },
+        "inArchive": true,
+        "discoverable": true,
+        "withdrawn": false,
+        "lastModified": "2021-05-31T17:21:40.730+0000",
+        "type": "item",
+        "_links": {
+          "bundles": {
+            "href": "http://localhost:8080/server/api/core/items/02a5ec93-2013-4c23-8d01-34ca8e1b1ba3/bundles"
+          },
+          "mappedCollections": {
+            "href": "http://localhost:8080/server/api/core/items/02a5ec93-2013-4c23-8d01-34ca8e1b1ba3/mappedCollections"
+          },
+          "owningCollection": {
+            "href": "http://localhost:8080/server/api/core/items/02a5ec93-2013-4c23-8d01-34ca8e1b1ba3/owningCollection"
+          },
+          "relationships": {
+            "href": "http://localhost:8080/server/api/core/items/02a5ec93-2013-4c23-8d01-34ca8e1b1ba3/relationships"
+          },
+          "version": {
+            "href": "http://localhost:8080/server/api/core/items/02a5ec93-2013-4c23-8d01-34ca8e1b1ba3/version"
+          },
+          "templateItemOf": {
+            "href": "http://localhost:8080/server/api/core/items/02a5ec93-2013-4c23-8d01-34ca8e1b1ba3/templateItemOf"
+          },
+          "self": {
+            "href": "http://localhost:8080/server/api/core/items/02a5ec93-2013-4c23-8d01-34ca8e1b1ba3"
+          }
+        }
+      },
+      {
+        "id": "02cbfe5b-d9eb-4522-a953-b7ce28b0e46f",
+        "uuid": "02cbfe5b-d9eb-4522-a953-b7ce28b0e46f",
+        "name": null,
+        "handle": "123456789/436",
+        "metadata": {
+          "dc.date.accessioned": [
+            {
+              "value": "2021-05-31T17:18:05Z",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.date.available": [
+            {
+              "value": "2021-05-31T17:18:05Z",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.description.provenance": [
+            {
+              "value": "Made available in DSpace on 2021-05-31T17:18:05Z (GMT). No. of bitstreams: 1\nUse%20of%20ram%20infographics.pdf: 220008 bytes, checksum: 94dcccf4071e1e38c218ce8eeb1f1812 (MD5)",
+              "language": "en",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.identifier.uri": [
+            {
+              "value": "http://dspace-angular:4000/handle/123456789/436",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.checksum": [
+            {
+              "value": "94dcccf4071e1e38c218ce8eeb1f1812",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.content.language": [
+            {
+              "value": "English",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.content.location": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.creator": [
+            {
+              "value": "SheepNet",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.datecreated": [
+            {
+              "value": "2019-07-10",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.dateextracted": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.description": [
+            {
+              "value": "Optimized use of rams with the aim to improve fertility and lambing concentration",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.fileformat": [
+            {
+              "value": "pdf",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.filesize": [
+            {
+              "value": "0.3 MB",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.filetype": [
+            {
+              "value": "infographic",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.keywords": [
+            {
+              "value": "animal husbandry; meat production; animal husbandry and welfare; animal equipmentanimal health; giving birth for animals; farming equipment and machinery; farming practice; best practice; knowledge exchange",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.license": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.purpose": [
+            {
+              "value": "communication; dissemination; education/training",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.acronym": [
+            {
+              "value": "SheepNet",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.domain": [
+            {
+              "value": "Animal Husbandry and Welfare",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.fullname": [
+            {
+              "value": "Sharing Expertise and Experience towards sheep Productivity through NETworking",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.url": [
+            {
+              "value": "http://www.sheepnet.network/",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.title": [
+            {
+              "value": "Optimized use of rams",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.topic": [
+            {
+              "value": "animal husbandry and welfare practices; animal husbandry and welfare actors; animal husbandry and welfare systems; types of animals; animal husbandry and welfare infrastructures; animal husbandry and welfare tools",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.type": [
+            {
+              "value": "infographic",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.url": [
+            {
+              "value": "http://www.sheepnet.network/sites/default/files/2019-10/Use%20of%20ram%20infographics.pdf",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ]
+        },
+        "inArchive": true,
+        "discoverable": true,
+        "withdrawn": false,
+        "lastModified": "2021-05-31T17:18:05.650+0000",
+        "type": "item",
+        "_links": {
+          "bundles": {
+            "href": "http://localhost:8080/server/api/core/items/02cbfe5b-d9eb-4522-a953-b7ce28b0e46f/bundles"
+          },
+          "mappedCollections": {
+            "href": "http://localhost:8080/server/api/core/items/02cbfe5b-d9eb-4522-a953-b7ce28b0e46f/mappedCollections"
+          },
+          "owningCollection": {
+            "href": "http://localhost:8080/server/api/core/items/02cbfe5b-d9eb-4522-a953-b7ce28b0e46f/owningCollection"
+          },
+          "relationships": {
+            "href": "http://localhost:8080/server/api/core/items/02cbfe5b-d9eb-4522-a953-b7ce28b0e46f/relationships"
+          },
+          "version": {
+            "href": "http://localhost:8080/server/api/core/items/02cbfe5b-d9eb-4522-a953-b7ce28b0e46f/version"
+          },
+          "templateItemOf": {
+            "href": "http://localhost:8080/server/api/core/items/02cbfe5b-d9eb-4522-a953-b7ce28b0e46f/templateItemOf"
+          },
+          "self": {
+            "href": "http://localhost:8080/server/api/core/items/02cbfe5b-d9eb-4522-a953-b7ce28b0e46f"
+          }
+        }
+      },
+      {
+        "id": "02e9e0cd-5b80-4ae7-874f-21778fdccc1a",
+        "uuid": "02e9e0cd-5b80-4ae7-874f-21778fdccc1a",
+        "name": null,
+        "handle": "123456789/454",
+        "metadata": {
+          "dc.date.accessioned": [
+            {
+              "value": "2021-05-31T17:19:16Z",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.date.available": [
+            {
+              "value": "2021-05-31T17:19:16Z",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.description.provenance": [
+            {
+              "value": "Made available in DSpace on 2021-05-31T17:19:16Z (GMT). No. of bitstreams: 0",
+              "language": "en",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.identifier.uri": [
+            {
+              "value": "http://dspace-angular:4000/handle/123456789/454",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.checksum": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.content.language": [
+            {
+              "value": "English",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.content.location": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.creator": [
+            {
+              "value": "EURAKNOS",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.datecreated": [
+            {
+              "value": "2020-04-02",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.dateextracted": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.description": [
+            {
+              "value": "A brief description of the INNO4GRASS Thematic Network and its activities.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.fileformat": [
+            {
+              "value": ".mp3",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.filesize": [
+            {
+              "value": "11.6 MB",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.filetype": [
+            {
+              "value": "audio",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.keywords": [
+            {
+              "value": "biodiversity and nature management; farming practice; animal husbandry and welfare; supply chain, marketing and consumption; food quality/processing and nutrition; plant production and horticulture; farming equipment and machinery; decision support system (DSS); advisory service; training",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.license": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.purpose": [
+            {
+              "value": "communication",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.acronym": [
+            {
+              "value": "EURAKNOS",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.domain": [
+            {
+              "value": "Animal Husbandry and Welfare",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.fullname": [
+            {
+              "value": "Connecting Thematic Networks as Knowledge Reservoirs: towards a European Agricultural Knowledge Innovation Open Source System",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.url": [
+            {
+              "value": "https://www.euraknos.eu/",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.title": [
+            {
+              "value": "Inno4grass: Awarding Innovation",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.topic": [
+            {
+              "value": "animal husbandry and welfare practices; animal husbandry and welfare actors; animal husbandry and welfare systems; animal husbandry and welfare tools; animal husbandry and welfare digital technologies; socio-economic context",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.type": [
+            {
+              "value": "interview",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.url": [
+            {
+              "value": "https://open.spotify.com/episode/5UMPoLe84XAQkE0beenlpY",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ]
+        },
+        "inArchive": true,
+        "discoverable": true,
+        "withdrawn": false,
+        "lastModified": "2021-05-31T17:19:16.394+0000",
+        "type": "item",
+        "_links": {
+          "bundles": {
+            "href": "http://localhost:8080/server/api/core/items/02e9e0cd-5b80-4ae7-874f-21778fdccc1a/bundles"
+          },
+          "mappedCollections": {
+            "href": "http://localhost:8080/server/api/core/items/02e9e0cd-5b80-4ae7-874f-21778fdccc1a/mappedCollections"
+          },
+          "owningCollection": {
+            "href": "http://localhost:8080/server/api/core/items/02e9e0cd-5b80-4ae7-874f-21778fdccc1a/owningCollection"
+          },
+          "relationships": {
+            "href": "http://localhost:8080/server/api/core/items/02e9e0cd-5b80-4ae7-874f-21778fdccc1a/relationships"
+          },
+          "version": {
+            "href": "http://localhost:8080/server/api/core/items/02e9e0cd-5b80-4ae7-874f-21778fdccc1a/version"
+          },
+          "templateItemOf": {
+            "href": "http://localhost:8080/server/api/core/items/02e9e0cd-5b80-4ae7-874f-21778fdccc1a/templateItemOf"
+          },
+          "self": {
+            "href": "http://localhost:8080/server/api/core/items/02e9e0cd-5b80-4ae7-874f-21778fdccc1a"
+          }
+        }
+      },
+      {
+        "id": "02ebc646-5451-4e63-a6e9-1a3488f39997",
+        "uuid": "02ebc646-5451-4e63-a6e9-1a3488f39997",
+        "name": null,
+        "handle": "123456789/588",
+        "metadata": {
+          "dc.date.accessioned": [
+            {
+              "value": "2021-05-31T17:21:44Z",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.date.available": [
+            {
+              "value": "2021-05-31T17:21:44Z",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.description.provenance": [
+            {
+              "value": "Made available in DSpace on 2021-05-31T17:21:44Z (GMT). No. of bitstreams: 0",
+              "language": "en",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.identifier.uri": [
+            {
+              "value": "http://dspace-angular:4000/handle/123456789/588",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.checksum": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.content.language": [
+            {
+              "value": "Croatian",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.content.location": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.creator": [
+            {
+              "value": "SMART-AKIS",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.datecreated": [
+            {
+              "value": "2017-03-08",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.dateextracted": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.description": [
+            {
+              "value": "The video is about a mobile robotic solar electric generator for irrigation.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.fileformat": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.filesize": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.filetype": [
+            {
+              "value": "video",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.keywords": [
+            {
+              "value": "farming practice; farming equipment and machinery; plant production and horticulture; AKIS; decision support system (DSS); agricultural robot; precision farming",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.license": [
+            {
+              "value": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.purpose": [
+            {
+              "value": "dissemination",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.acronym": [
+            {
+              "value": "SMART-AKIS",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.domain": [
+            {
+              "value": "Crop Farming",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.fullname": [
+            {
+              "value": "European Agricultural Knowledge and Innovation Systems (AKIS) towards innovation-driven research in Smart Farming Technology",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.url": [
+            {
+              "value": "https://www.smart-akis.com/",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.title": [
+            {
+              "value": "Mobile robotic solar electric generator for irrigation",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.topic": [
+            {
+              "value": "crop farming practices; crop farming actors; crop farming systems",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.type": [
+            {
+              "value": "Educational/training video",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.url": [
+            {
+              "value": "https://youtu.be/s5MePn5i1sE",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ]
+        },
+        "inArchive": true,
+        "discoverable": true,
+        "withdrawn": false,
+        "lastModified": "2021-05-31T17:21:45.026+0000",
+        "type": "item",
+        "_links": {
+          "bundles": {
+            "href": "http://localhost:8080/server/api/core/items/02ebc646-5451-4e63-a6e9-1a3488f39997/bundles"
+          },
+          "mappedCollections": {
+            "href": "http://localhost:8080/server/api/core/items/02ebc646-5451-4e63-a6e9-1a3488f39997/mappedCollections"
+          },
+          "owningCollection": {
+            "href": "http://localhost:8080/server/api/core/items/02ebc646-5451-4e63-a6e9-1a3488f39997/owningCollection"
+          },
+          "relationships": {
+            "href": "http://localhost:8080/server/api/core/items/02ebc646-5451-4e63-a6e9-1a3488f39997/relationships"
+          },
+          "version": {
+            "href": "http://localhost:8080/server/api/core/items/02ebc646-5451-4e63-a6e9-1a3488f39997/version"
+          },
+          "templateItemOf": {
+            "href": "http://localhost:8080/server/api/core/items/02ebc646-5451-4e63-a6e9-1a3488f39997/templateItemOf"
+          },
+          "self": {
+            "href": "http://localhost:8080/server/api/core/items/02ebc646-5451-4e63-a6e9-1a3488f39997"
+          }
+        }
+      },
+      {
+        "id": "03123a8d-1941-467d-984d-e0d35947e339",
+        "uuid": "03123a8d-1941-467d-984d-e0d35947e339",
+        "name": null,
+        "handle": "123456789/460",
+        "metadata": {
+          "dc.date.accessioned": [
+            {
+              "value": "2021-05-31T17:21:19Z",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.date.available": [
+            {
+              "value": "2021-05-31T17:21:19Z",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.description.provenance": [
+            {
+              "value": "Made available in DSpace on 2021-05-31T17:21:19Z (GMT). No. of bitstreams: 0",
+              "language": "en",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.identifier.uri": [
+            {
+              "value": "http://dspace-angular:4000/handle/123456789/460",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.checksum": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.content.language": [
+            {
+              "value": "Portuguese",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.content.location": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.creator": [
+            {
+              "value": "AFINET",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.datecreated": [
+            {
+              "value": "2019-11-18",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.dateextracted": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.description": [
+            {
+              "value": "An event promoted by CEF (Center for Forest Studies) at ISA in collaboration with the AFINET project and with ANSUB (Association of Forest Producers of Vale do Sado).",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.fileformat": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.filesize": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.filetype": [
+            {
+              "value": "video",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.keywords": [
+            {
+              "value": "agroforestry; forestry",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.license": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.purpose": [
+            {
+              "value": "dissemination",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.acronym": [
+            {
+              "value": "AFINET",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.domain": [
+            {
+              "value": "Forestry",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.fullname": [
+            {
+              "value": "AgroForestry Innovation NETworks",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.url": [
+            {
+              "value": "https://euraf.isa.utl.pt/afinet",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.title": [
+            {
+              "value": "Silvopastoral system with Galician sheep",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.topic": [
+            {
+              "value": "environment; forestry practices; forestry actors",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.type": [
+            {
+              "value": "interview",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.url": [
+            {
+              "value": "https://www.youtube.com/watch?v=w2SWTBhs668",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ]
+        },
+        "inArchive": true,
+        "discoverable": true,
+        "withdrawn": false,
+        "lastModified": "2021-05-31T17:21:19.743+0000",
+        "type": "item",
+        "_links": {
+          "bundles": {
+            "href": "http://localhost:8080/server/api/core/items/03123a8d-1941-467d-984d-e0d35947e339/bundles"
+          },
+          "mappedCollections": {
+            "href": "http://localhost:8080/server/api/core/items/03123a8d-1941-467d-984d-e0d35947e339/mappedCollections"
+          },
+          "owningCollection": {
+            "href": "http://localhost:8080/server/api/core/items/03123a8d-1941-467d-984d-e0d35947e339/owningCollection"
+          },
+          "relationships": {
+            "href": "http://localhost:8080/server/api/core/items/03123a8d-1941-467d-984d-e0d35947e339/relationships"
+          },
+          "version": {
+            "href": "http://localhost:8080/server/api/core/items/03123a8d-1941-467d-984d-e0d35947e339/version"
+          },
+          "templateItemOf": {
+            "href": "http://localhost:8080/server/api/core/items/03123a8d-1941-467d-984d-e0d35947e339/templateItemOf"
+          },
+          "self": {
+            "href": "http://localhost:8080/server/api/core/items/03123a8d-1941-467d-984d-e0d35947e339"
+          }
+        }
+      },
+      {
+        "id": "03885532-443d-41d1-8201-ef38eab2d681",
+        "uuid": "03885532-443d-41d1-8201-ef38eab2d681",
+        "name": null,
+        "handle": "123456789/652",
+        "metadata": {
+          "dc.date.accessioned": [
+            {
+              "value": "2021-05-31T17:31:24Z",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.date.available": [
+            {
+              "value": "2021-05-31T17:31:24Z",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.description.provenance": [
+            {
+              "value": "Made available in DSpace on 2021-05-31T17:31:24Z (GMT). No. of bitstreams: 1\nManaging_fresh_grass_intake_in_the_pasture_PA_4D4F_EN.pdf: 28406 bytes, checksum: 15a6a6a3ff5d6de584c514a430a92dc7 (MD5)",
+              "language": "en",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.identifier.uri": [
+            {
+              "value": "http://dspace-angular:4000/handle/123456789/652",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.checksum": [
+            {
+              "value": "15a6a6a3ff5d6de584c514a430a92dc7",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.content.language": [
+            {
+              "value": "English",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.content.location": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.creator": [
+            {
+              "value": "4D4F",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.datecreated": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.dateextracted": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.description": [
+            {
+              "value": "A practice abstract for Managing fresh grass intake in the pasture.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.fileformat": [
+            {
+              "value": "pdf",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.filesize": [
+            {
+              "value": "28 KB",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.keywords": [
+            {
+              "value": "agricultural production system; farming practice; farming equipment and machinery; animal husbandry and welfare; farming and forestry competitiveness;  farming and forestry diversification; best practice; data-driven agriculture; knowledge exchange; dairy farming",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.license": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.purpose": [
+            {
+              "value": "dissemination; education/training",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.acronym": [
+            {
+              "value": "4D4F",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.domain": [
+            {
+              "value": "Animal Husbandry and Welfare",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.fullname": [
+            {
+              "value": "Data Driven Dairy Decisions 4 Farmers",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.url": [
+            {
+              "value": "http://www.4d4f.eu/",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.title": [
+            {
+              "value": "Managing fresh grass intake in the pasture",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.topic": [
+            {
+              "value": "forestry practices; animal husbandry and welfare practices; crop farming practices",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.type": [
+            {
+              "value": "Practice abstract",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.url": [
+            {
+              "value": "https://ec.europa.eu/eip/agriculture/en/find-connect/projects/4d4f-data-driven-dairy-decisions-farmers",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ]
+        },
+        "inArchive": true,
+        "discoverable": true,
+        "withdrawn": false,
+        "lastModified": "2021-05-31T17:31:24.889+0000",
+        "type": "item",
+        "_links": {
+          "bundles": {
+            "href": "http://localhost:8080/server/api/core/items/03885532-443d-41d1-8201-ef38eab2d681/bundles"
+          },
+          "mappedCollections": {
+            "href": "http://localhost:8080/server/api/core/items/03885532-443d-41d1-8201-ef38eab2d681/mappedCollections"
+          },
+          "owningCollection": {
+            "href": "http://localhost:8080/server/api/core/items/03885532-443d-41d1-8201-ef38eab2d681/owningCollection"
+          },
+          "relationships": {
+            "href": "http://localhost:8080/server/api/core/items/03885532-443d-41d1-8201-ef38eab2d681/relationships"
+          },
+          "version": {
+            "href": "http://localhost:8080/server/api/core/items/03885532-443d-41d1-8201-ef38eab2d681/version"
+          },
+          "templateItemOf": {
+            "href": "http://localhost:8080/server/api/core/items/03885532-443d-41d1-8201-ef38eab2d681/templateItemOf"
+          },
+          "self": {
+            "href": "http://localhost:8080/server/api/core/items/03885532-443d-41d1-8201-ef38eab2d681"
+          }
+        }
+      },
+      {
+        "id": "039fb4fb-6b33-449e-bc5e-8c1e15dcce61",
+        "uuid": "039fb4fb-6b33-449e-bc5e-8c1e15dcce61",
+        "name": null,
+        "handle": "123456789/550",
+        "metadata": {
+          "dc.date.accessioned": [
+            {
+              "value": "2021-05-31T17:21:37Z",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.date.available": [
+            {
+              "value": "2021-05-31T17:21:37Z",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.description.provenance": [
+            {
+              "value": "Made available in DSpace on 2021-05-31T17:21:37Z (GMT). No. of bitstreams: 0",
+              "language": "en",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.identifier.uri": [
+            {
+              "value": "http://dspace-angular:4000/handle/123456789/550",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.checksum": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.content.language": [
+            {
+              "value": "English",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.content.location": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.creator": [
+            {
+              "value": "SMART-AKIS",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.datecreated": [
+            {
+              "value": "2016-07-29",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.dateextracted": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.description": [
+            {
+              "value": "The Yamaha RMax unmanned helicopter has begun limited Precision Agriculture services in Napa Valley's famed vineyard growing wine region of Northern California. Watch Yamaha's Precision Agriculture commercial division test their experimental design deploying a fungicidal application that prevents mildew from growing on the grapes. Subscribe to our \"Yamaha Motor USA\" YouTube Channel: http://yamaha.us/SubYMUSA.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.fileformat": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.filesize": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.filetype": [
+            {
+              "value": "video",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.keywords": [
+            {
+              "value": "farming practice; farming equipment and machinery; plant production and horticulture; AKIS; decision support system (DSS); agricultural robot; precision farming",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.license": [
+            {
+              "value": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.purpose": [
+            {
+              "value": "dissemination",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.acronym": [
+            {
+              "value": "SMART-AKIS",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.domain": [
+            {
+              "value": "Crop Farming",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.fullname": [
+            {
+              "value": "European Agricultural Knowledge and Innovation Systems (AKIS) towards innovation-driven research in Smart Farming Technology",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.url": [
+            {
+              "value": "https://www.smart-akis.com/",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.title": [
+            {
+              "value": "Precision Agriculture with the Yamaha RMax helicopter",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.topic": [
+            {
+              "value": "crop farming practices; crop farming actors; crop farming systems",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.type": [
+            {
+              "value": "product/feature review video",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.url": [
+            {
+              "value": "https://youtu.be/ydfPzqaNkuA",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ]
+        },
+        "inArchive": true,
+        "discoverable": true,
+        "withdrawn": false,
+        "lastModified": "2021-05-31T17:21:37.775+0000",
+        "type": "item",
+        "_links": {
+          "bundles": {
+            "href": "http://localhost:8080/server/api/core/items/039fb4fb-6b33-449e-bc5e-8c1e15dcce61/bundles"
+          },
+          "mappedCollections": {
+            "href": "http://localhost:8080/server/api/core/items/039fb4fb-6b33-449e-bc5e-8c1e15dcce61/mappedCollections"
+          },
+          "owningCollection": {
+            "href": "http://localhost:8080/server/api/core/items/039fb4fb-6b33-449e-bc5e-8c1e15dcce61/owningCollection"
+          },
+          "relationships": {
+            "href": "http://localhost:8080/server/api/core/items/039fb4fb-6b33-449e-bc5e-8c1e15dcce61/relationships"
+          },
+          "version": {
+            "href": "http://localhost:8080/server/api/core/items/039fb4fb-6b33-449e-bc5e-8c1e15dcce61/version"
+          },
+          "templateItemOf": {
+            "href": "http://localhost:8080/server/api/core/items/039fb4fb-6b33-449e-bc5e-8c1e15dcce61/templateItemOf"
+          },
+          "self": {
+            "href": "http://localhost:8080/server/api/core/items/039fb4fb-6b33-449e-bc5e-8c1e15dcce61"
+          }
+        }
+      },
+      {
+        "id": "03c1bebf-3d6f-4a40-a424-7f5bd3017fd3",
+        "uuid": "03c1bebf-3d6f-4a40-a424-7f5bd3017fd3",
+        "name": null,
+        "handle": "123456789/491",
+        "metadata": {
+          "dc.date.accessioned": [
+            {
+              "value": "2021-05-31T17:21:25Z",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.date.available": [
+            {
+              "value": "2021-05-31T17:21:25Z",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.description.provenance": [
+            {
+              "value": "Made available in DSpace on 2021-05-31T17:21:25Z (GMT). No. of bitstreams: 0",
+              "language": "en",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.identifier.uri": [
+            {
+              "value": "http://dspace-angular:4000/handle/123456789/491",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.checksum": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.content.language": [
+            {
+              "value": "English",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.content.location": [
+            {
+              "value": "United Kingdom",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.creator": [
+            {
+              "value": "Innovation for Agriculture",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.datecreated": [
+            {
+              "value": "2018-11-05",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.dateextracted": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.description": [
+            {
+              "value": "The SW Dairy Centre, in Somerset, uses automated feeding with MixFeeder to improve precision and reduce waste",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.fileformat": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.filesize": [
+            {
+              "value": "Ν.Α.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.filetype": [
+            {
+              "value": "video",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.keywords": [
+            {
+              "value": "best practice; data-driven agriculture; knowledge exchange;automatic feeding",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.license": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.purpose": [
+            {
+              "value": "dissemination",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.acronym": [
+            {
+              "value": "4D4F",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.domain": [
+            {
+              "value": "Animal Husbandry and Welfare",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.fullname": [
+            {
+              "value": "Data Driven Dairy Decisions 4 Farmers",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.url": [
+            {
+              "value": "https://4d4f.eu/",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.title": [
+            {
+              "value": "The SW Dairy Development Centre - GEA Robotic Feeding System (2/3)",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.topic": [
+            {
+              "value": "animal husbandry and welfare practices; animal husbandry and welfare systems; animal husbandry and welfare infrastructures; animal husbandry and welfare tools; animal husbandry and welfare digital technologies",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.type": [
+            {
+              "value": "case study",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.url": [
+            {
+              "value": "https://www.youtube.com/watch?v=_tpjCphCXl4",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ]
+        },
+        "inArchive": true,
+        "discoverable": true,
+        "withdrawn": false,
+        "lastModified": "2021-05-31T17:21:25.484+0000",
+        "type": "item",
+        "_links": {
+          "bundles": {
+            "href": "http://localhost:8080/server/api/core/items/03c1bebf-3d6f-4a40-a424-7f5bd3017fd3/bundles"
+          },
+          "mappedCollections": {
+            "href": "http://localhost:8080/server/api/core/items/03c1bebf-3d6f-4a40-a424-7f5bd3017fd3/mappedCollections"
+          },
+          "owningCollection": {
+            "href": "http://localhost:8080/server/api/core/items/03c1bebf-3d6f-4a40-a424-7f5bd3017fd3/owningCollection"
+          },
+          "relationships": {
+            "href": "http://localhost:8080/server/api/core/items/03c1bebf-3d6f-4a40-a424-7f5bd3017fd3/relationships"
+          },
+          "version": {
+            "href": "http://localhost:8080/server/api/core/items/03c1bebf-3d6f-4a40-a424-7f5bd3017fd3/version"
+          },
+          "templateItemOf": {
+            "href": "http://localhost:8080/server/api/core/items/03c1bebf-3d6f-4a40-a424-7f5bd3017fd3/templateItemOf"
+          },
+          "self": {
+            "href": "http://localhost:8080/server/api/core/items/03c1bebf-3d6f-4a40-a424-7f5bd3017fd3"
+          }
+        }
+      },
+      {
+        "id": "0400f5d8-3244-4533-873f-cacfacaed862",
+        "uuid": "0400f5d8-3244-4533-873f-cacfacaed862",
+        "name": null,
+        "handle": "123456789/202",
+        "metadata": {
+          "dc.date.accessioned": [
+            {
+              "value": "2021-05-31T17:07:12Z",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.date.available": [
+            {
+              "value": "2021-05-31T17:07:12Z",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.description.provenance": [
+            {
+              "value": "Made available in DSpace on 2021-05-31T17:07:12Z (GMT). No. of bitstreams: 1\nBE_de%20MONTPELLIER%20Farm%20portrait%20EN.pdf: 844888 bytes, checksum: 3386ba860783fe877a36971989090823 (MD5)",
+              "language": "en",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.identifier.uri": [
+            {
+              "value": "http://dspace-angular:4000/handle/123456789/202",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.checksum": [
+            {
+              "value": "3386ba860783fe877a36971989090823",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.content.language": [
+            {
+              "value": "English",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.content.location": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.creator": [
+            {
+              "value": "Inno4Grass",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.datecreated": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.dateextracted": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.description": [
+            {
+              "value": "Grass fed beef meat, product processing, short and local marketing chain.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.fileformat": [
+            {
+              "value": "pdf",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.filesize": [
+            {
+              "value": "825 KB",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.filetype": [
+            {
+              "value": "document",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.keywords": [
+            {
+              "value": "agricultural sciences; animal and dairy science; dairy; combining barn drying-storage; grass fed beef meat",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.license": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.purpose": [
+            {
+              "value": "communication",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.acronym": [
+            {
+              "value": "Inno4Grass",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.domain": [
+            {
+              "value": "Animal Husbandry & Welfare",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.fullname": [
+            {
+              "value": "Shared Innovation Space for Sustainable Productivity of Grasslands in Europe",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.url": [
+            {
+              "value": "https://inno4grass.eu/en/",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.title": [
+            {
+              "value": "Grass-fed beef meat, product processing, short and local marketing chain",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.topic": [
+            {
+              "value": "animal husbandry and welfare practices; crop farming systems",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.type": [
+            {
+              "value": "brochure",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.url": [
+            {
+              "value": "https://www.inno4grass.eu/images/BE/Portraits%20EN/BE_de%20MONTPELLIER%20Farm%20portrait%20EN.pdf",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ]
+        },
+        "inArchive": true,
+        "discoverable": true,
+        "withdrawn": false,
+        "lastModified": "2021-05-31T17:07:12.972+0000",
+        "type": "item",
+        "_links": {
+          "bundles": {
+            "href": "http://localhost:8080/server/api/core/items/0400f5d8-3244-4533-873f-cacfacaed862/bundles"
+          },
+          "mappedCollections": {
+            "href": "http://localhost:8080/server/api/core/items/0400f5d8-3244-4533-873f-cacfacaed862/mappedCollections"
+          },
+          "owningCollection": {
+            "href": "http://localhost:8080/server/api/core/items/0400f5d8-3244-4533-873f-cacfacaed862/owningCollection"
+          },
+          "relationships": {
+            "href": "http://localhost:8080/server/api/core/items/0400f5d8-3244-4533-873f-cacfacaed862/relationships"
+          },
+          "version": {
+            "href": "http://localhost:8080/server/api/core/items/0400f5d8-3244-4533-873f-cacfacaed862/version"
+          },
+          "templateItemOf": {
+            "href": "http://localhost:8080/server/api/core/items/0400f5d8-3244-4533-873f-cacfacaed862/templateItemOf"
+          },
+          "self": {
+            "href": "http://localhost:8080/server/api/core/items/0400f5d8-3244-4533-873f-cacfacaed862"
+          }
+        }
+      },
+      {
+        "id": "04244a08-f56e-4dac-b134-0cf7f9b10c21",
+        "uuid": "04244a08-f56e-4dac-b134-0cf7f9b10c21",
+        "name": null,
+        "handle": "123456789/48",
+        "metadata": {
+          "dc.date.accessioned": [
+            {
+              "value": "2021-05-31T16:59:01Z",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.date.available": [
+            {
+              "value": "2021-05-31T16:59:01Z",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.description.provenance": [
+            {
+              "value": "Made available in DSpace on 2021-05-31T16:59:01Z (GMT). No. of bitstreams: 1\n1150.pdf: 1308977 bytes, checksum: e6befc9f0b780cf8c191e4ef9accb761 (MD5)",
+              "language": "en",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.identifier.uri": [
+            {
+              "value": "http://dspace-angular:4000/handle/123456789/48",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.checksum": [
+            {
+              "value": "e6befc9f0b780cf8c191e4ef9accb761",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.content.language": [
+            {
+              "value": "English",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.content.location": [
+            {
+              "value": "Croatia",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.creator": [
+            {
+              "value": "IN2 d.o.o",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.datecreated": [
+            {
+              "value": "2018-04-03",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.dateextracted": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.description": [
+            {
+              "value": "Sample planner is a mobile application that enables the collection of geo-referenced visual data (pictures). Based on activities defined in other tools (e.g. NDVI report) it is easy to collect visual data based on a predefined task list related to the critical area.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.fileformat": [
+            {
+              "value": "pdf",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.filesize": [
+            {
+              "value": "1.24 MB",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.filetype": [
+            {
+              "value": "document",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.keywords": [
+            {
+              "value": "farming practice; farming equipment and machinery; plant production and horticulture; AKIS; precision agriculture; smart farming technologies; agricultural production systems; field visual data collection tool",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.license": [
+            {
+              "value": "https://creativecommons.org/licenses/by/4.0/",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.purpose": [
+            {
+              "value": "dissemination",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.acronym": [
+            {
+              "value": "Smart-AKIS",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.domain": [
+            {
+              "value": "Crop Farming",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.fullname": [
+            {
+              "value": "European Agricultural Knowledge and Innovation Systems (AKIS) towards innovation-driven research in Smart Farming Technology",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.url": [
+            {
+              "value": "https://www.smart-akis.com/",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.title": [
+            {
+              "value": "Sample planner",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.topic": [
+            {
+              "value": "crop farming actors; crop farming tools; crop farming digital technologies",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.type": [
+            {
+              "value": "technical information/specifications card",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.url": [
+            {
+              "value": "https://www.smart-akis.com/wp-content/uploads/techhtmpdf/1150.pdf",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ]
+        },
+        "inArchive": true,
+        "discoverable": true,
+        "withdrawn": false,
+        "lastModified": "2021-05-31T16:59:01.836+0000",
+        "type": "item",
+        "_links": {
+          "bundles": {
+            "href": "http://localhost:8080/server/api/core/items/04244a08-f56e-4dac-b134-0cf7f9b10c21/bundles"
+          },
+          "mappedCollections": {
+            "href": "http://localhost:8080/server/api/core/items/04244a08-f56e-4dac-b134-0cf7f9b10c21/mappedCollections"
+          },
+          "owningCollection": {
+            "href": "http://localhost:8080/server/api/core/items/04244a08-f56e-4dac-b134-0cf7f9b10c21/owningCollection"
+          },
+          "relationships": {
+            "href": "http://localhost:8080/server/api/core/items/04244a08-f56e-4dac-b134-0cf7f9b10c21/relationships"
+          },
+          "version": {
+            "href": "http://localhost:8080/server/api/core/items/04244a08-f56e-4dac-b134-0cf7f9b10c21/version"
+          },
+          "templateItemOf": {
+            "href": "http://localhost:8080/server/api/core/items/04244a08-f56e-4dac-b134-0cf7f9b10c21/templateItemOf"
+          },
+          "self": {
+            "href": "http://localhost:8080/server/api/core/items/04244a08-f56e-4dac-b134-0cf7f9b10c21"
+          }
+        }
+      },
+      {
+        "id": "0448116d-9b31-4b6e-a9b1-9823db9f85f8",
+        "uuid": "0448116d-9b31-4b6e-a9b1-9823db9f85f8",
+        "name": null,
+        "handle": "123456789/223",
+        "metadata": {
+          "dc.date.accessioned": [
+            {
+              "value": "2021-05-31T17:07:20Z",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.date.available": [
+            {
+              "value": "2021-05-31T17:07:20Z",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.description.provenance": [
+            {
+              "value": "Made available in DSpace on 2021-05-31T17:07:20Z (GMT). No. of bitstreams: 1\n143.pdf: 253933 bytes, checksum: b2e1c369e369274ef6ab12aadbfb4525 (MD5)",
+              "language": "en",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.identifier.uri": [
+            {
+              "value": "http://dspace-angular:4000/handle/123456789/223",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.checksum": [
+            {
+              "value": "b2e1c369e369274ef6ab12aadbfb4525",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.content.language": [
+            {
+              "value": "English",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.content.location": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.creator": [
+            {
+              "value": "Smart-AKIS",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.datecreated": [
+            {
+              "value": "2018-04-03",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.dateextracted": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.description": [
+            {
+              "value": "For monitoring agriculture in Europe, we will innovatively propose an unsupervised automated method (with limited interaction) based on advanced similarity criteria utilizing spectral/spatial characteristics and on manifold learning techniques for clustering large data sets of very-high resolution images. Spectral clustering has ability to extract clusters with distinct characteristics without using a parametric model in expense of high computational cost. To utilize its advantages in large datasets where it is infeasible, ASC methods applyspectral clustering on a reduced set of points (data representatives) selected by sampling/quantization. (It also relates to the IAM4MARS project).",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.fileformat": [
+            {
+              "value": "pdf",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.filesize": [
+            {
+              "value": "248 KB",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.filetype": [
+            {
+              "value": "document",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.keywords": [
+            {
+              "value": "farming practice; farming equipment and machinery; plant production and horticulture; AKIS; precision agriculture; smart farming technologies (SFT); climate and climate change; biodiversity and naturemanagement",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.license": [
+            {
+              "value": "https://creativecommons.org/licenses/by/4.0/",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.purpose": [
+            {
+              "value": "dissemination",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.acronym": [
+            {
+              "value": "Smart-AKIS",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.domain": [
+            {
+              "value": "Crop Farming",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.fullname": [
+            {
+              "value": "European Agricultural Knowledge and Innovation Systems (AKIS) towards innovation-driven research in Smart Farming Technology",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.url": [
+            {
+              "value": "https://www.smart-akis.com/",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.title": [
+            {
+              "value": "Intelligent Automated Methods for Monitoring Agriculture with Remote Sensing",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.topic": [
+            {
+              "value": "crop farming actors; crop farming tools; crop farming digital technologies",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.type": [
+            {
+              "value": "technical information/specifications card",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.url": [
+            {
+              "value": "https://www.smart-akis.com/wp-content/uploads/techhtmpdf/143.pdf",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ]
+        },
+        "inArchive": true,
+        "discoverable": true,
+        "withdrawn": false,
+        "lastModified": "2021-05-31T17:07:20.649+0000",
+        "type": "item",
+        "_links": {
+          "bundles": {
+            "href": "http://localhost:8080/server/api/core/items/0448116d-9b31-4b6e-a9b1-9823db9f85f8/bundles"
+          },
+          "mappedCollections": {
+            "href": "http://localhost:8080/server/api/core/items/0448116d-9b31-4b6e-a9b1-9823db9f85f8/mappedCollections"
+          },
+          "owningCollection": {
+            "href": "http://localhost:8080/server/api/core/items/0448116d-9b31-4b6e-a9b1-9823db9f85f8/owningCollection"
+          },
+          "relationships": {
+            "href": "http://localhost:8080/server/api/core/items/0448116d-9b31-4b6e-a9b1-9823db9f85f8/relationships"
+          },
+          "version": {
+            "href": "http://localhost:8080/server/api/core/items/0448116d-9b31-4b6e-a9b1-9823db9f85f8/version"
+          },
+          "templateItemOf": {
+            "href": "http://localhost:8080/server/api/core/items/0448116d-9b31-4b6e-a9b1-9823db9f85f8/templateItemOf"
+          },
+          "self": {
+            "href": "http://localhost:8080/server/api/core/items/0448116d-9b31-4b6e-a9b1-9823db9f85f8"
+          }
+        }
+      },
+      {
+        "id": "051c9d5e-e444-4af6-98cc-fa02a5b7ece1",
+        "uuid": "051c9d5e-e444-4af6-98cc-fa02a5b7ece1",
+        "name": null,
+        "handle": "123456789/673",
+        "metadata": {
+          "dc.date.accessioned": [
+            {
+              "value": "2021-05-31T17:34:21Z",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.date.available": [
+            {
+              "value": "2021-05-31T17:34:21Z",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.description.provenance": [
+            {
+              "value": "Made available in DSpace on 2021-05-31T17:34:21Z (GMT). No. of bitstreams: 1\nPoplar_silvoarable_systems_PA_AFINET_EN.pdf: 28867 bytes, checksum: c10d46ba46732fa0651c09e8e1e525a7 (MD5)",
+              "language": "en",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.identifier.uri": [
+            {
+              "value": "http://dspace-angular:4000/handle/123456789/673",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.checksum": [
+            {
+              "value": "c10d46ba46732fa0651c09e8e1e525a7",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.content.language": [
+            {
+              "value": "English",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.content.location": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.creator": [
+            {
+              "value": "AFINET",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.datecreated": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.dateextracted": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.description": [
+            {
+              "value": "A practice abstract for poplar silvoarable systems: Where to plant, planting material and tree density.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.fileformat": [
+            {
+              "value": "pdf",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.filesize": [
+            {
+              "value": "29 KB",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.keywords": [
+            {
+              "value": "farming practice; climate and climate change; animal husbandry and welfare; landscape; land management; pest and disease control; soil management and functionality; forestry farming; forestry competitiveness and diversification; supply chain marketing and consumption",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.license": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.purpose": [
+            {
+              "value": "dissemination; education/training",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.acronym": [
+            {
+              "value": "AFINET",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.domain": [
+            {
+              "value": "Forestry",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.fullname": [
+            {
+              "value": "Agroforestry Innovation Networks",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.url": [
+            {
+              "value": "https://euraf.isa.utl.pt/afinet",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.title": [
+            {
+              "value": "Poplar silvoarable systems: Where to plant, planting material and tree density",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.topic": [
+            {
+              "value": "forestry practices; animal husbandry and welfare practices",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.type": [
+            {
+              "value": "Practice abstract",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.url": [
+            {
+              "value": "https://ec.europa.eu/eip/agriculture/en/find-connect/projects/afinet-red-de-innovaci%C3%B3n-agroforestal-1-45",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ]
+        },
+        "inArchive": true,
+        "discoverable": true,
+        "withdrawn": false,
+        "lastModified": "2021-05-31T17:34:21.288+0000",
+        "type": "item",
+        "_links": {
+          "bundles": {
+            "href": "http://localhost:8080/server/api/core/items/051c9d5e-e444-4af6-98cc-fa02a5b7ece1/bundles"
+          },
+          "mappedCollections": {
+            "href": "http://localhost:8080/server/api/core/items/051c9d5e-e444-4af6-98cc-fa02a5b7ece1/mappedCollections"
+          },
+          "owningCollection": {
+            "href": "http://localhost:8080/server/api/core/items/051c9d5e-e444-4af6-98cc-fa02a5b7ece1/owningCollection"
+          },
+          "relationships": {
+            "href": "http://localhost:8080/server/api/core/items/051c9d5e-e444-4af6-98cc-fa02a5b7ece1/relationships"
+          },
+          "version": {
+            "href": "http://localhost:8080/server/api/core/items/051c9d5e-e444-4af6-98cc-fa02a5b7ece1/version"
+          },
+          "templateItemOf": {
+            "href": "http://localhost:8080/server/api/core/items/051c9d5e-e444-4af6-98cc-fa02a5b7ece1/templateItemOf"
+          },
+          "self": {
+            "href": "http://localhost:8080/server/api/core/items/051c9d5e-e444-4af6-98cc-fa02a5b7ece1"
+          }
+        }
+      },
+      {
+        "id": "0538328f-43c1-428d-bed2-2cfe53bfa067",
+        "uuid": "0538328f-43c1-428d-bed2-2cfe53bfa067",
+        "name": null,
+        "handle": "123456789/203",
+        "metadata": {
+          "dc.date.accessioned": [
+            {
+              "value": "2021-05-31T17:07:13Z",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.date.available": [
+            {
+              "value": "2021-05-31T17:07:13Z",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.description.provenance": [
+            {
+              "value": "Made available in DSpace on 2021-05-31T17:07:13Z (GMT). No. of bitstreams: 1\na-guide-to-nutrient-budgeting-on-farms.pdf: 0 bytes, checksum: d41d8cd98f00b204e9800998ecf8427e (MD5)",
+              "language": "en",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.identifier.uri": [
+            {
+              "value": "http://dspace-angular:4000/handle/123456789/203",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.checksum": [
+            {
+              "value": "d41d8cd98f00b204e9800998ecf8427e",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.content.language": [
+            {
+              "value": "English",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.content.location": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.creator": [
+            {
+              "value": "Dr. Christine Watson; Dr. Kairsty Topp; Dr. Liz Stockdale",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.datecreated": [
+            {
+              "value": "2010-07-01",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.dateextracted": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.description": [
+            {
+              "value": "A Guide to Nutrient Budgeting on Organic Farms.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.fileformat": [
+            {
+              "value": "pdf",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.filesize": [
+            {
+              "value": "274 KB",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.filetype": [
+            {
+              "value": "document",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.keywords": [
+            {
+              "value": "organic farming; organic fertilizer; soil fertility; non-chemical weed control; non-chemical pest control; crop variety; crop rotation",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.license": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.purpose": [
+            {
+              "value": "dissemination",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.acronym": [
+            {
+              "value": "OK-NET Arable",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.domain": [
+            {
+              "value": "Crop farming",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.fullname": [
+            {
+              "value": "Organic Knowledge Network Arable",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.url": [
+            {
+              "value": "https://www.ok-net-arable.eu/",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.title": [
+            {
+              "value": "A Guide to Nutrient Budgeting on Organic Farms",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.topic": [
+            {
+              "value": "crop farming practices; crop farming actors; crop farming systems",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.type": [
+            {
+              "value": "guide",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.url": [
+            {
+              "value": "https://orgprints.org/31654/1/a-guide-to-nutrient-budgeting-on-farms.pdf",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ]
+        },
+        "inArchive": true,
+        "discoverable": true,
+        "withdrawn": false,
+        "lastModified": "2021-05-31T17:07:13.295+0000",
+        "type": "item",
+        "_links": {
+          "bundles": {
+            "href": "http://localhost:8080/server/api/core/items/0538328f-43c1-428d-bed2-2cfe53bfa067/bundles"
+          },
+          "mappedCollections": {
+            "href": "http://localhost:8080/server/api/core/items/0538328f-43c1-428d-bed2-2cfe53bfa067/mappedCollections"
+          },
+          "owningCollection": {
+            "href": "http://localhost:8080/server/api/core/items/0538328f-43c1-428d-bed2-2cfe53bfa067/owningCollection"
+          },
+          "relationships": {
+            "href": "http://localhost:8080/server/api/core/items/0538328f-43c1-428d-bed2-2cfe53bfa067/relationships"
+          },
+          "version": {
+            "href": "http://localhost:8080/server/api/core/items/0538328f-43c1-428d-bed2-2cfe53bfa067/version"
+          },
+          "templateItemOf": {
+            "href": "http://localhost:8080/server/api/core/items/0538328f-43c1-428d-bed2-2cfe53bfa067/templateItemOf"
+          },
+          "self": {
+            "href": "http://localhost:8080/server/api/core/items/0538328f-43c1-428d-bed2-2cfe53bfa067"
+          }
+        }
+      },
+      {
+        "id": "05588fe1-bc44-47cb-942b-4bb198acd727",
+        "uuid": "05588fe1-bc44-47cb-942b-4bb198acd727",
+        "name": null,
+        "handle": "123456789/300",
+        "metadata": {
+          "dc.date.accessioned": [
+            {
+              "value": "2021-05-31T17:08:02Z",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.date.available": [
+            {
+              "value": "2021-05-31T17:08:02Z",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.description.provenance": [
+            {
+              "value": "Made available in DSpace on 2021-05-31T17:08:02Z (GMT). No. of bitstreams: 1\nPA_041_assisted_guide_hoeing_final_QR.pdf: 0 bytes, checksum: d41d8cd98f00b204e9800998ecf8427e (MD5)",
+              "language": "en",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "dc.identifier.uri": [
+            {
+              "value": "http://dspace-angular:4000/handle/123456789/300",
+              "language": null,
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.checksum": [
+            {
+              "value": "d41d8cd98f00b204e9800998ecf8427e",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.content.language": [
+            {
+              "value": "English",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.content.location": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.creator": [
+            {
+              "value": "Stefano Bortolussi",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.datecreated": [
+            {
+              "value": "2018",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.dateextracted": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.description": [
+            {
+              "value": "Camera-controlled hoeing of row crops.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.fileformat": [
+            {
+              "value": "pdf",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.filesize": [
+            {
+              "value": "613 KB",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.filetype": [
+            {
+              "value": "document",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.keywords": [
+            {
+              "value": "organic farming; organic fertilizer; soil fertility; non-chemical weed control; non-chemical pest control; crop variety; crop rotation",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.license": [
+            {
+              "value": "N.A.",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.purpose": [
+            {
+              "value": "dissemination",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.acronym": [
+            {
+              "value": "OK-NET Arable",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.domain": [
+            {
+              "value": "Crop farming",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.fullname": [
+            {
+              "value": "Organic Knowledge Network Arable",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.thematicnetwork.url": [
+            {
+              "value": "https://www.ok-net-arable.eu/",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.title": [
+            {
+              "value": "Camera-controlled hoeing of row crops",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.topic": [
+            {
+              "value": "crop farming practices; crop farming actors; crop farming systems",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.type": [
+            {
+              "value": "guide",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ],
+          "knowledgeobject.url": [
+            {
+              "value": "https://orgprints.org/32949/1/PA_041_assisted_guide_hoeing_final_QR.pdf",
+              "language": "",
+              "authority": null,
+              "confidence": -1,
+              "place": 0
+            }
+          ]
+        },
+        "inArchive": true,
+        "discoverable": true,
+        "withdrawn": false,
+        "lastModified": "2021-05-31T17:08:02.226+0000",
+        "type": "item",
+        "_links": {
+          "bundles": {
+            "href": "http://localhost:8080/server/api/core/items/05588fe1-bc44-47cb-942b-4bb198acd727/bundles"
+          },
+          "mappedCollections": {
+            "href": "http://localhost:8080/server/api/core/items/05588fe1-bc44-47cb-942b-4bb198acd727/mappedCollections"
+          },
+          "owningCollection": {
+            "href": "http://localhost:8080/server/api/core/items/05588fe1-bc44-47cb-942b-4bb198acd727/owningCollection"
+          },
+          "relationships": {
+            "href": "http://localhost:8080/server/api/core/items/05588fe1-bc44-47cb-942b-4bb198acd727/relationships"
+          },
+          "version": {
+            "href": "http://localhost:8080/server/api/core/items/05588fe1-bc44-47cb-942b-4bb198acd727/version"
+          },
+          "templateItemOf": {
+            "href": "http://localhost:8080/server/api/core/items/05588fe1-bc44-47cb-942b-4bb198acd727/templateItemOf"
+          },
+          "self": {
+            "href": "http://localhost:8080/server/api/core/items/05588fe1-bc44-47cb-942b-4bb198acd727"
+          }
+        }
+      }
+    ]
+  },
+  "_links": {
+    "first": {
+      "href": "http://localhost:8080/server/api/core/items?page=0&size=20"
+    },
+    "self": {
+      "href": "http://localhost:8080/server/api/core/items"
+    },
+    "next": {
+      "href": "http://localhost:8080/server/api/core/items?page=1&size=20"
+    },
+    "last": {
+      "href": "http://localhost:8080/server/api/core/items?page=36&size=20"
+    }
+  },
+  "page": {
+    "size": 20,
+    "totalElements": 725,
+    "totalPages": 37,
+    "number": 0
+  }
+}

@@ -1,0 +1,8 @@
+services:
+  logger.eureka_dspace:
+    class: Drupal\Core\Logger\LoggerChannel
+    factory: logger.factory:get
+    arguments: [ 'eureka_dspace' ]
+  eureka_dspace.service.dspace:
+    class: Drupal\eureka_dspace\DspaceService
+    arguments: ['@state', '@logger.eureka_dspace', '@http_client']

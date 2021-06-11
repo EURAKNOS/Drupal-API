@@ -1,0 +1,19 @@
+uuid: b7006a59-267f-4152-b3aa-6333ccbd787a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_dc_date_available
+    - node.type.dspace_item
+id: node.dspace_item.field_dc_date_available
+field_name: field_dc_date_available
+entity_type: node
+bundle: dspace_item
+label: dc_date_available
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

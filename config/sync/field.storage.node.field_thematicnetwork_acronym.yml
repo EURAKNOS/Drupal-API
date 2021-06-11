@@ -1,0 +1,21 @@
+uuid: 035d58a8-19a0-4bbd-bc20-d65363b7234d
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_thematicnetwork_acronym
+field_name: field_thematicnetwork_acronym
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

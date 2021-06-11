@@ -1,0 +1,16 @@
+uuid: c476a4c4-7dec-4bd8-b219-5bbd0abb4cb5
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.dspace_item
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: node.dspace_item
+target_entity_type_id: node
+target_bundle: dspace_item
+default_langcode: site_default
+language_alterable: false

@@ -21,6 +21,10 @@
         {
             "type": "composer",
             "url": "https://asset-packagist.org"
+        },
+        {
+            "type": "vcs",
+            "url":  "https://gitlab.euraknos.cf/drupal-api/drupal-dspace.git"
         }
     ],
     "require": {
@@ -29,15 +33,22 @@
         "drupal/adminimal_theme": "^1.6",
         "drupal/config_ignore": "^2.3",
         "drupal/config_split": "^1.7",
+        "drupal/consumers": "^1.11",
         "drupal/core-composer-scaffold": "^9.0",
         "drupal/devel": "^4.1",
+        "drupal/external_entities": "2.x-dev@dev",
         "drupal/jsonapi_menu_items": "^1.1",
+        "drupal/jsonapi_search_api": "^1.0@RC",
         "drupal/jsonapi_user_resources": "^1.0@alpha",
+        "drupal/migrate_plus": "^5.1",
+        "drupal/migrate_tools": "^5.0",
         "drupal/openapi_ui_swagger": "^1.0@RC",
         "drupal/pathauto": "^1.8",
         "drupal/profile": "^1.2",
         "drupal/rate": "^2.0@alpha",
         "drupal/restui": "^1.19",
+        "drupal/search_api": "^1.19",
+        "drupal/search_api_solr": "^4.1",
         "drupal/svg_image": "^1.14",
         "drupal/translated_config": "^1.0",
         "drupal/user_registrationpassword": "^1.0@alpha",

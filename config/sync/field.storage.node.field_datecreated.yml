@@ -1,0 +1,21 @@
+uuid: a2f57cd0-6af5-4b6f-bbc4-eb59a80815fb
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_datecreated
+field_name: field_datecreated
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

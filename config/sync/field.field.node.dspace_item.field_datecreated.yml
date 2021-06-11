@@ -1,0 +1,19 @@
+uuid: b2a4580d-b256-4a02-abfa-6ad94e7b78b2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_datecreated
+    - node.type.dspace_item
+id: node.dspace_item.field_datecreated
+field_name: field_datecreated
+entity_type: node
+bundle: dspace_item
+label: datecreated
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

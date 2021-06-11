@@ -1,0 +1,7 @@
+<?php
+
+/**
+ * Implements hook_install().
+ */
+function eureka_dspace_install() {
+}

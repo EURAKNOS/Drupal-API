@@ -1,0 +1,19 @@
+uuid: 4b604206-954b-48f0-bcdc-2babbf2944f0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_thematicnetwork_acronym
+    - node.type.dspace_item
+id: node.dspace_item.field_thematicnetwork_acronym
+field_name: field_thematicnetwork_acronym
+entity_type: node
+bundle: dspace_item
+label: thematicnetwork_acronym
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

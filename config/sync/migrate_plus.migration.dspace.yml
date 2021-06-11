@@ -1,0 +1,182 @@
+uuid: 9a003519-57aa-46e1-995d-f00e2a73d7ab
+langcode: en
+status: true
+dependencies: {  }
+id: dspace
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags: null
+migration_group: dspace
+label: 'Migrates all Dspace items.'
+source:
+  plugin: url
+  data_fetcher_plugin: http
+  data_parser_plugin: dspace
+  urls: 'http://api.dspace.poc.euraknos.cf/server/api/core/items'
+  item_selector: /_embedded/items
+  fields:
+    -
+      name: id
+      label: Id
+      selector: id
+    -
+      name: title
+      label: Title
+      selector: metadata/knowledgeobject.title/0/value
+    -
+      name: dc.date.accessioned
+      label: accessioned
+      selector: metadata/dc.date.accessioned/0/value
+    -
+      name: dc.date.available
+      label: available
+      selector: metadata/dc.date.available/0/value
+    -
+      name: dc.description.provenance
+      label: provenance
+      selector: metadata/dc.description.provenance/0/value
+    -
+      name: dc.identifier.uri
+      label: uri
+      selector: metadata/dc.identifier.uri/0/value
+    -
+      name: checksum
+      label: checksum
+      selector: metadata/knowledgeobject.checksum/0/value
+    -
+      name: content.language
+      label: language
+      selector: metadata/knowledgeobject.content.language/0/value
+    -
+      name: content.location
+      label: location
+      selector: metadata/knowledgeobject.content.location/0/value
+    -
+      name: creator
+      label: creator
+      selector: metadata/knowledgeobject.creator/0/value
+    -
+      name: datecreated
+      label: datecreated
+      selector: metadata/knowledgeobject.datecreated/0/value
+    -
+      name: dateextracted
+      label: dateextracted
+      selector: metadata/knowledgeobject.dateextracted/0/value
+    -
+      name: description
+      label: Description
+      selector: metadata/knowledgeobject.description/0/value
+    -
+      name: fileformat
+      label: fileformat
+      selector: metadata/knowledgeobject.fileformat/0/value
+    -
+      name: filesize
+      label: filesize
+      selector: metadata/knowledgeobject.filesize/0/value
+    -
+      name: filetype
+      label: filetype
+      selector: metadata/knowledgeobject.filetype/0/value
+    -
+      name: keywords
+      label: keywords
+      selector: metadata/knowledgeobject.keywords/0/value
+    -
+      name: license
+      label: license
+      selector: metadata/knowledgeobject.license/0/value
+    -
+      name: purpose
+      label: purpose
+      selector: metadata/knowledgeobject.purpose/0/value
+    -
+      name: thematicnetwork.acronym
+      label: thematicnetwork.acronym
+      selector: metadata/knowledgeobject.thematicnetwork.acronym/0/value
+    -
+      name: thematicnetwork.domain
+      label: thematicnetwork.domain
+      selector: metadata/knowledgeobject.thematicnetwork.domain/0/value
+    -
+      name: thematicnetwork.fullname
+      label: thematicnetwork.fullname
+      selector: metadata/knowledgeobject.thematicnetwork.fullname/0/value
+    -
+      name: thematicnetwork.url
+      label: thematicnetwork.url
+      selector: metadata/knowledgeobject.thematicnetwork.url/0/value
+    -
+      name: topic
+      label: topic
+      selector: metadata/knowledgeobject.topic/0/value
+    -
+      name: type
+      label: type
+      selector: metadata/knowledgeobject.type/0/value
+    -
+      name: url
+      label: url
+      selector: metadata/knowledgeobject.url/0/value
+    -
+      name: bundles
+      label: Bundles
+      selector: _links/bundles
+  ids:
+    id:
+      type: string
+process:
+  title:
+    source: title
+    plugin: get
+    language: en
+  field_description:
+    source: description
+    plugin: get
+    language: en
+  field_dc_date_accessioned:
+    source: dc.date.accessioned
+    plugin: get
+    language: en
+  field_dc_date_available:
+    source: dc.date.available
+    plugin: get
+    language: en
+  field_dc_description_provenance:
+    source: dc.description.provenance
+    plugin: get
+    language: en
+  field_dc_identifier_uri:
+    source: dc.identifier.uri
+    plugin: get
+    language: en
+  field_checksum: checksum
+  field_content_language: content.language
+  field_content_location: content.location
+  field_creator: creator
+  field_datecreated: datecreated
+  field_dateextracted: dateextracted
+  field_fileformat: fileformat
+  field_filesize: filesize
+  field_filetype: filetype
+  field_keywords: keywords
+  field_license: license
+  field_purpose: purpose
+  field_thematicnetwork_acronym: thematicnetwork.acronym
+  field_thematicnetwork_domain: thematicnetwork.domain
+  field_thematicnetwork_fullname: thematicnetwork.fullname
+  field_thematicnetwork_url: thematicnetwork.url
+  field_topic: topic
+  field_type: type
+  field_url: url
+  field_file:
+    plugin: dspace_document
+    source: bundles
+  type:
+    plugin: default_value
+    default_value: dspace_item
+destination:
+  plugin: 'entity:node'
+migration_dependencies: null

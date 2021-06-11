@@ -1,0 +1,19 @@
+uuid: db97dd26-9a7a-4b47-ab21-3a70dab9aeea
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_thematicnetwork_fullname
+    - node.type.dspace_item
+id: node.dspace_item.field_thematicnetwork_fullname
+field_name: field_thematicnetwork_fullname
+entity_type: node
+bundle: dspace_item
+label: thematicnetwork_fullname
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

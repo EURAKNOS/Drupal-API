@@ -1,0 +1,17 @@
+uuid: 3f60c255-8f31-40fe-9ade-41d49a29b752
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Dspace item'
+type: dspace_item
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

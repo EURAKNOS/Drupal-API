@@ -1,0 +1,6 @@
+name: DSpace
+description: 'Contains DSpace functionalities.'
+package: Eureka
+type: module
+core: 8.x
+core_version_requirement: ^8 || ^9

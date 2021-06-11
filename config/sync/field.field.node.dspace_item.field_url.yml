@@ -1,0 +1,19 @@
+uuid: caf04529-933c-4c33-aeb3-6593d8605184
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_url
+    - node.type.dspace_item
+id: node.dspace_item.field_url
+field_name: field_url
+entity_type: node
+bundle: dspace_item
+label: url
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,19 @@
+uuid: af201964-14c6-423a-b5f2-d4da5f5160fd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_dc_date_accessioned
+    - node.type.dspace_item
+id: node.dspace_item.field_dc_date_accessioned
+field_name: field_dc_date_accessioned
+entity_type: node
+bundle: dspace_item
+label: dc_date_accessioned
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

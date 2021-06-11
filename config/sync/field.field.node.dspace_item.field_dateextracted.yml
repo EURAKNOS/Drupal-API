@@ -1,0 +1,19 @@
+uuid: 8c96d3fd-6b39-482c-bffa-861669fbe1d6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_dateextracted
+    - node.type.dspace_item
+id: node.dspace_item.field_dateextracted
+field_name: field_dateextracted
+entity_type: node
+bundle: dspace_item
+label: dateextracted
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

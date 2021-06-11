@@ -7,10 +7,12 @@ label: 'Upvote / Downvote'
 template: thumbsupdown
 value_type: points
 entity_types:
+  - node.dspace_item
   - node.forum
   - node.generic_page
   - taxonomy_term.forums
 comment_types:
+  - node.dspace_item
   - node.forum
   - node.generic_page
   - taxonomy_term.forums

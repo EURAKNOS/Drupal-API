@@ -1,0 +1,27 @@
+uuid: a37fa669-aaa5-4279-8a6b-017cbc6f3f22
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_file
+    - node.type.dspace_item
+  module:
+    - file
+id: node.dspace_item.field_file
+field_name: field_file
+entity_type: node
+bundle: dspace_item
+label: file
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: dspace-documents
+  file_extensions: 'txt doc docx pdf xlsx xls csv'
+  max_filesize: ''
+  description_field: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file
