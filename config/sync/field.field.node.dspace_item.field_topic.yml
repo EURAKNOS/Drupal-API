@@ -1,10 +1,11 @@
-uuid: 49fa1296-66f1-4d50-a7dd-2cd19ea773ef
+uuid: 0353a167-44d5-4bb8-a146-5019e7269c8c
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_topic
     - node.type.dspace_item
+    - taxonomy.vocabulary.topics
 id: node.dspace_item.field_topic
 field_name: field_topic
 entity_type: node
@@ -15,5 +16,14 @@ required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
-settings: {  }
-field_type: string_long
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      topics: topics
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

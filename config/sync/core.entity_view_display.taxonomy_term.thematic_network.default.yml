@@ -1,0 +1,48 @@
+uuid: eb450cca-a29a-4bf2-85ac-f3e2d2711fea
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.thematic_network.field_acronym
+    - field.field.taxonomy_term.thematic_network.field_fullname
+    - field.field.taxonomy_term.thematic_network.field_url
+    - taxonomy.vocabulary.thematic_network
+  module:
+    - text
+id: taxonomy_term.thematic_network.default
+targetEntityType: taxonomy_term
+bundle: thematic_network
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_acronym:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_fullname:
+    weight: 2
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_url:
+    weight: 3
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+hidden:
+  langcode: true
+  search_api_excerpt: true

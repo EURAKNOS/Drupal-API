@@ -160,15 +160,86 @@ process:
   field_dateextracted: dateextracted
   field_fileformat: fileformat
   field_filesize: filesize
-  field_filetype: filetype
-  field_keywords: keywords
+  field_filetype:
+    -
+      plugin: skip_on_empty
+      source: filetype
+      method: process
+    -
+      plugin: explode
+      delimiter: ;
+    -
+      plugin: callback
+      callable: trim
+    -
+      plugin: entity_generate
+      entity_type: taxonomy_term
+      value_key: name
+      bundle_key: vid
+      bundle: filetypes
+  field_keywords:
+    -
+      plugin: skip_on_empty
+      source: keywords
+      method: process
+    -
+      plugin: explode
+      delimiter: ;
+    -
+      plugin: callback
+      callable: trim
+    -
+      plugin: entity_generate
+      entity_type: taxonomy_term
+      value_key: name
+      bundle_key: vid
+      bundle: keywords
   field_license: license
-  field_purpose: purpose
-  field_thematicnetwork_acronym: thematicnetwork.acronym
-  field_thematicnetwork_domain: thematicnetwork.domain
-  field_thematicnetwork_fullname: thematicnetwork.fullname
-  field_thematicnetwork_url: thematicnetwork.url
-  field_topic: topic
+  field_purpose:
+    -
+      plugin: skip_on_empty
+      source: purpose
+      method: process
+    -
+      plugin: explode
+      delimiter: ;
+    -
+      plugin: callback
+      callable: trim
+    -
+      plugin: entity_generate
+      entity_type: taxonomy_term
+      value_key: name
+      bundle_key: vid
+      bundle: purposes
+  field_thematicnetwork:
+    plugin: entity_generate
+    source: thematicnetwork.domain
+    entity_type: taxonomy_term
+    value_key: name
+    bundle_key: vid
+    bundle: thematic_network
+    values:
+      field_acronym: thematicnetwork.acronym
+      field_fullname: thematicnetwork.fullname
+      field_url: thematicnetwork.url
+  field_topic:
+    -
+      plugin: skip_on_empty
+      source: topic
+      method: process
+    -
+      plugin: explode
+      delimiter: ;
+    -
+      plugin: callback
+      callable: trim
+    -
+      plugin: entity_generate
+      entity_type: taxonomy_term
+      value_key: name
+      bundle_key: vid
+      bundle: topics
   field_type: type
   field_url: url
   field_file:

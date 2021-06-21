@@ -1,0 +1,8 @@
+uuid: f50a8194-0c8f-441a-a772-fc27efd50f78
+langcode: en
+status: true
+dependencies: {  }
+name: Topics
+vid: topics
+description: 'Defines Dspace topics.'
+weight: 0

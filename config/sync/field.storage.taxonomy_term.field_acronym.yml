@@ -1,12 +1,12 @@
-uuid: 537873fd-ab85-4874-9460-89389d511f0b
+uuid: a7a2d8dd-1823-4e7c-b4b6-4cb33a37a2c1
 langcode: en
 status: true
 dependencies:
   module:
-    - node
-id: node.field_thematicnetwork_url
-field_name: field_thematicnetwork_url
-entity_type: node
+    - taxonomy
+id: taxonomy_term.field_acronym
+field_name: field_acronym
+entity_type: taxonomy_term
 type: string
 settings:
   max_length: 255

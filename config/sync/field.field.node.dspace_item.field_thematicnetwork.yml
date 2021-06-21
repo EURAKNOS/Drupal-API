@@ -1,16 +1,16 @@
-uuid: f0c9cdd2-b049-4500-b179-a65fea9541b9
+uuid: 29ab8e66-bbc4-493b-a1b3-b321b60a5e6e
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_purpose
+    - field.storage.node.field_thematicnetwork
     - node.type.dspace_item
-    - taxonomy.vocabulary.purposes
-id: node.dspace_item.field_purpose
-field_name: field_purpose
+    - taxonomy.vocabulary.thematic_network
+id: node.dspace_item.field_thematicnetwork
+field_name: field_thematicnetwork
 entity_type: node
 bundle: dspace_item
-label: purpose
+label: thematicnetwork
 description: ''
 required: false
 translatable: false
@@ -20,7 +20,7 @@ settings:
   handler: 'default:taxonomy_term'
   handler_settings:
     target_bundles:
-      purposes: purposes
+      thematic_network: thematic_network
     sort:
       field: name
       direction: asc

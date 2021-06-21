@@ -1,0 +1,8 @@
+uuid: 5fbc40f0-87cc-4dd0-8c4c-d215406e12cf
+langcode: en
+status: true
+dependencies: {  }
+name: 'Thematic network'
+vid: thematic_network
+description: ''
+weight: 0

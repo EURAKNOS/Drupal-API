@@ -1,4 +1,4 @@
-uuid: 5b1a0482-7cde-4550-a599-bd2e6f9a2e32
+uuid: 38681a58-882b-4e8b-9d7d-54fd3cc57ca6
 langcode: en
 status: true
 dependencies:
@@ -7,10 +7,8 @@ dependencies:
 id: node.field_dc_description_provenance
 field_name: field_dc_description_provenance
 entity_type: node
-type: string
+type: string_long
 settings:
-  max_length: 255
-  is_ascii: false
   case_sensitive: false
 module: core
 locked: false

@@ -1,4 +1,4 @@
-uuid: f98e2edb-c446-48a7-bbd3-7e4fe2f63cc2
+uuid: 9d8a2650-89b1-4548-90a6-70877893e68f
 langcode: en
 status: true
 dependencies:
@@ -7,10 +7,8 @@ dependencies:
 id: node.field_creator
 field_name: field_creator
 entity_type: node
-type: string
+type: string_long
 settings:
-  max_length: 255
-  is_ascii: false
   case_sensitive: false
 module: core
 locked: false

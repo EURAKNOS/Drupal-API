@@ -1,0 +1,8 @@
+uuid: 9cd4a8dc-3053-46d6-a1b9-4bd064c63259
+langcode: en
+status: true
+dependencies: {  }
+name: Keywords
+vid: keywords
+description: 'Defines Dspace keywords.'
+weight: 0

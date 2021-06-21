@@ -1,0 +1,19 @@
+uuid: b0b4f0cd-e161-4ad1-be8c-b23b9bbb0a5b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_acronym
+    - taxonomy.vocabulary.thematic_network
+id: taxonomy_term.thematic_network.field_acronym
+field_name: field_acronym
+entity_type: taxonomy_term
+bundle: thematic_network
+label: Acronym
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

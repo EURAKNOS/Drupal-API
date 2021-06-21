@@ -1,16 +1,14 @@
-uuid: 8f0c456a-4fc8-4d97-a208-d7698b9dae06
+uuid: 1280f51a-ff62-411e-bfff-9323cfefa347
 langcode: en
 status: true
 dependencies:
   module:
-    - node
-id: node.field_thematicnetwork_domain
-field_name: field_thematicnetwork_domain
-entity_type: node
-type: string
+    - taxonomy
+id: taxonomy_term.field_fullname
+field_name: field_fullname
+entity_type: taxonomy_term
+type: string_long
 settings:
-  max_length: 255
-  is_ascii: false
   case_sensitive: false
 module: core
 locked: false
