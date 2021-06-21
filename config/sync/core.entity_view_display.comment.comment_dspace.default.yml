@@ -1,0 +1,31 @@
+uuid: 19fadc0b-1ccd-4a9d-ae83-d6401dfca128
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.comment_dspace
+    - field.field.comment.comment_dspace.comment_body
+    - field.field.comment.comment_dspace.field_api_votes
+  module:
+    - text
+id: comment.comment_dspace.default
+targetEntityType: comment
+bundle: comment_dspace
+mode: default
+content:
+  comment_body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_api_votes: true
+  langcode: true
+  search_api_excerpt: true

@@ -1,0 +1,11 @@
+uuid: 7f392edc-5da6-4280-9d40-b5e4e567730a
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.comment_dspace
+id: comment.comment_dspace
+target_entity_type_id: comment
+target_bundle: comment_dspace
+default_langcode: site_default
+language_alterable: false

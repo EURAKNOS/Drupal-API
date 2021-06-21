@@ -1,0 +1,16 @@
+uuid: 411b5293-4f9e-4903-a261-d103dd87df6b
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.thematic_network
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: taxonomy_term.thematic_network
+target_entity_type_id: taxonomy_term
+target_bundle: thematic_network
+default_langcode: site_default
+language_alterable: false

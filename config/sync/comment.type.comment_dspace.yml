@@ -1,0 +1,8 @@
+uuid: e4ec895c-2d07-4b1d-acfa-1680d3ef6b5c
+langcode: en
+status: true
+dependencies: {  }
+id: comment_dspace
+label: 'Comment dspace'
+target_entity_type_id: node
+description: ''

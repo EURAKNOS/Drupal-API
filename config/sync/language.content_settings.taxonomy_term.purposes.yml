@@ -1,0 +1,16 @@
+uuid: b8f1eb1f-466d-4043-837a-f27f97e4fa2d
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.purposes
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: taxonomy_term.purposes
+target_entity_type_id: taxonomy_term
+target_bundle: purposes
+default_langcode: site_default
+language_alterable: false

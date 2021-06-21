@@ -1,0 +1,45 @@
+uuid: 1d43a27a-bc37-4e0b-bfbb-aba513b2b570
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.comment_dspace
+    - field.field.comment.comment_dspace.comment_body
+    - field.field.comment.comment_dspace.field_api_votes
+  module:
+    - text
+id: comment.comment_dspace.default
+targetEntityType: comment
+bundle: comment_dspace
+mode: default
+content:
+  author:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  comment_body:
+    type: text_textarea
+    weight: 3
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  langcode:
+    type: language_select
+    weight: 1
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  subject:
+    type: string_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  field_api_votes: true

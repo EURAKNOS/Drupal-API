@@ -1,0 +1,21 @@
+uuid: 6e984be7-ad1d-4e4a-a49b-e26ea69e4ca1
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.comment_dspace
+    - field.storage.comment.comment_body
+  module:
+    - text
+id: comment.comment_dspace.comment_body
+field_name: comment_body
+entity_type: comment
+bundle: comment_dspace
+label: Comment
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

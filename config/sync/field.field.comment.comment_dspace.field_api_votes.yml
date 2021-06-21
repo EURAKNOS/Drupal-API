@@ -1,0 +1,21 @@
+uuid: 7ca62c46-488d-4182-b94a-def2271d0a70
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.comment_dspace
+    - field.storage.comment.field_api_votes
+id: comment.comment_dspace.field_api_votes
+field_name: field_api_votes
+entity_type: comment
+bundle: comment_dspace
+label: 'Api votes'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: '1'
+default_value_callback: ''
+settings: {  }
+field_type: string
