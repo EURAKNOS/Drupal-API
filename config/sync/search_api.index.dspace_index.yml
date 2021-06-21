@@ -5,11 +5,17 @@ dependencies:
   module:
     - search_api_solr
     - node
+    - taxonomy
     - search_api
   config:
     - field.storage.node.body
     - field.storage.node.field_category
+    - field.storage.node.field_datecreated
     - field.storage.node.field_description
+    - field.storage.node.field_filetype
+    - field.storage.node.field_thematicnetwork
+    - field.storage.taxonomy_term.field_acronym
+    - field.storage.taxonomy_term.field_fullname
     - search_api.server.eureka
 third_party_settings:
   search_api_solr:
@@ -65,6 +71,17 @@ field_settings:
     dependencies:
       config:
         - field.storage.node.body
+  field_acronym:
+    label: 'thematicnetwork » Taxonomy term » Acronym'
+    datasource_id: 'entity:node'
+    property_path: 'field_thematicnetwork:entity:field_acronym'
+    type: text
+    dependencies:
+      config:
+        - field.storage.node.field_thematicnetwork
+        - field.storage.taxonomy_term.field_acronym
+      module:
+        - taxonomy
   field_category:
     label: Category
     datasource_id: 'entity:node'
@@ -73,6 +90,14 @@ field_settings:
     dependencies:
       config:
         - field.storage.node.field_category
+  field_datecreated:
+    label: datecreated
+    datasource_id: 'entity:node'
+    property_path: field_datecreated
+    type: date
+    dependencies:
+      config:
+        - field.storage.node.field_datecreated
   field_description:
     label: Description
     datasource_id: 'entity:node'
@@ -81,6 +106,33 @@ field_settings:
     dependencies:
       config:
         - field.storage.node.field_description
+  field_filetype:
+    label: filetype
+    datasource_id: 'entity:node'
+    property_path: field_filetype
+    type: integer
+    dependencies:
+      config:
+        - field.storage.node.field_filetype
+  field_fullname:
+    label: 'thematicnetwork » Taxonomy term » Fullname'
+    datasource_id: 'entity:node'
+    property_path: 'field_thematicnetwork:entity:field_fullname'
+    type: text
+    dependencies:
+      config:
+        - field.storage.node.field_thematicnetwork
+        - field.storage.taxonomy_term.field_fullname
+      module:
+        - taxonomy
+  field_thematicnetwork:
+    label: thematicnetwork
+    datasource_id: 'entity:node'
+    property_path: field_thematicnetwork
+    type: integer
+    dependencies:
+      config:
+        - field.storage.node.field_thematicnetwork
   nid:
     label: ID
     datasource_id: 'entity:node'
