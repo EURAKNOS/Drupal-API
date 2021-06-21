@@ -25,6 +25,7 @@ variables:
 relationships:
     database: 'db:mysql'
     redis: 'cache:redis'
+    solr: 'search:main'
 
 # Add additional PHP extensions.
 runtime:
