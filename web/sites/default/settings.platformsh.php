@@ -161,3 +161,23 @@ foreach ($platformsh->variables() as $name => $value) {
       break;
   }
 }
+
+// Dynamic Solr-configuration for P.sh environments.
+$platformsh->registerFormatter('drupal-solr', function($solr) {
+  // Default the solr core name to `collection1` for pre-Solr-6.x instances.
+  return [
+    'core' => substr($solr['path'], 5) ? : 'collection1',
+    'path' => '',
+    'host' => $solr['host'],
+    'port' => $solr['port'],
+  ];
+});
+
+// Update these values to the relationship name (from .platform.app.yaml)
+// and the machine name of the server from your Drupal configuration.
+$relationship_name = 'solr';
+$solr_server_name = 'eureka';
+if ($platformsh->hasRelationship($relationship_name)) {
+  // Set the connector configuration to the appropriate value, as defined by the formatter above.
+  $config['search_api.server.' . $solr_server_name]['backend_config']['connector_config'] = $platformsh->formattedCredentials($relationship_name, 'drupal-solr');
+}
