@@ -59,20 +59,24 @@ content:
     type: comment_default
     region: content
   field_content_language:
-    weight: 14
+    weight: 43
     settings:
+      match_operator: CONTAINS
+      match_limit: 10
       size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: string_textfield
+    type: entity_reference_autocomplete
     region: content
   field_content_location:
-    weight: 15
+    weight: 44
     settings:
+      match_operator: CONTAINS
+      match_limit: 10
       size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: string_textfield
+    type: entity_reference_autocomplete
     region: content
   field_creator:
     weight: 33
@@ -136,12 +140,14 @@ content:
     type: file_generic
     region: content
   field_fileformat:
-    weight: 19
+    weight: 45
     settings:
+      match_operator: CONTAINS
+      match_limit: 10
       size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: string_textfield
+    type: entity_reference_autocomplete
     region: content
   field_filesize:
     weight: 20
@@ -210,12 +216,14 @@ content:
     type: entity_reference_autocomplete
     region: content
   field_type:
-    weight: 28
+    weight: 46
     settings:
+      match_operator: CONTAINS
+      match_limit: 10
       size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: string_textfield
+    type: entity_reference_autocomplete
     region: content
   field_url:
     weight: 35

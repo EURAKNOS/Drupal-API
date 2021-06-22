@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_display.comment.comment_dspace.default
     - field.field.node.dspace_item.field_category
     - field.field.node.dspace_item.field_checksum
     - field.field.node.dspace_item.field_comment_dspace
@@ -56,20 +57,20 @@ content:
     type: comment_default
     region: content
   field_content_language:
-    weight: 6
+    weight: 24
     label: above
     settings:
-      link_to_entity: false
+      link: true
     third_party_settings: {  }
-    type: string
+    type: entity_reference_label
     region: content
   field_content_location:
-    weight: 7
+    weight: 25
     label: above
     settings:
-      link_to_entity: false
+      link: true
     third_party_settings: {  }
-    type: string
+    type: entity_reference_label
     region: content
   field_creator:
     weight: 20
@@ -135,12 +136,12 @@ content:
     type: file_default
     region: content
   field_fileformat:
-    weight: 10
+    weight: 26
     label: above
     settings:
-      link_to_entity: false
+      link: true
     third_party_settings: {  }
-    type: string
+    type: entity_reference_label
     region: content
   field_filesize:
     weight: 11
@@ -199,12 +200,12 @@ content:
     type: entity_reference_label
     region: content
   field_type:
-    weight: 13
+    weight: 27
     label: above
     settings:
-      link_to_entity: false
+      link: true
     third_party_settings: {  }
-    type: string
+    type: entity_reference_label
     region: content
   field_url:
     weight: 21

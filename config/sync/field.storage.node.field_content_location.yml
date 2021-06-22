@@ -1,17 +1,16 @@
-uuid: d7fc205e-6adc-45ff-a854-dc9234464bb4
+uuid: 82438aa2-c08d-4ec5-b68a-32c0f181252b
 langcode: en
 status: true
 dependencies:
   module:
     - node
+    - taxonomy
 id: node.field_content_location
 field_name: field_content_location
 entity_type: node
-type: string
+type: entity_reference
 settings:
-  max_length: 255
-  is_ascii: false
-  case_sensitive: false
+  target_type: taxonomy_term
 module: core
 locked: false
 cardinality: 1

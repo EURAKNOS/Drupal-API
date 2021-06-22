@@ -1,10 +1,11 @@
-uuid: a55026aa-6508-4ba5-bf79-a8a89cf5d706
+uuid: f79c98ea-f38d-4bf5-b835-2f6a65a819b8
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_fileformat
     - node.type.dspace_item
+    - taxonomy.vocabulary.file_formats
 id: node.dspace_item.field_fileformat
 field_name: field_fileformat
 entity_type: node
@@ -15,5 +16,14 @@ required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
-settings: {  }
-field_type: string
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      file_formats: file_formats
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

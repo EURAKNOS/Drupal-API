@@ -1,0 +1,8 @@
+uuid: f968618c-938b-417e-bee7-d2279e918538
+langcode: en
+status: true
+dependencies: {  }
+name: 'File formats'
+vid: file_formats
+description: ''
+weight: 0

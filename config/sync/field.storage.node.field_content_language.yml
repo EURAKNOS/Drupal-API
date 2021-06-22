@@ -1,17 +1,16 @@
-uuid: 0b5d2100-3ca2-4cd7-bd92-335318984c43
+uuid: ef13c215-eff4-4ede-93f1-c4e9f2ac9909
 langcode: en
 status: true
 dependencies:
   module:
     - node
+    - taxonomy
 id: node.field_content_language
 field_name: field_content_language
 entity_type: node
-type: string
+type: entity_reference
 settings:
-  max_length: 255
-  is_ascii: false
-  case_sensitive: false
+  target_type: taxonomy_term
 module: core
 locked: false
 cardinality: 1
