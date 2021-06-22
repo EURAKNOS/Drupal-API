@@ -153,12 +153,60 @@ process:
     plugin: get
     language: en
   field_checksum: checksum
-  field_content_language: content.language
-  field_content_location: content.location
+  field_content_language:
+    -
+      plugin: skip_on_empty
+      source: content.language
+      method: process
+    -
+      plugin: explode
+      delimiter: ;
+    -
+      plugin: callback
+      callable: trim
+    -
+      plugin: entity_generate
+      entity_type: taxonomy_term
+      value_key: name
+      bundle_key: vid
+      bundle: languages
+  field_content_location:
+    -
+      plugin: skip_on_empty
+      source: content.location
+      method: process
+    -
+      plugin: explode
+      delimiter: ;
+    -
+      plugin: callback
+      callable: trim
+    -
+      plugin: entity_generate
+      entity_type: taxonomy_term
+      value_key: name
+      bundle_key: vid
+      bundle: locations
   field_creator: creator
   field_datecreated: datecreated
   field_dateextracted: dateextracted
-  field_fileformat: fileformat
+  field_fileformat:
+    -
+      plugin: skip_on_empty
+      source: fileformat
+      method: process
+    -
+      plugin: explode
+      delimiter: ;
+    -
+      plugin: callback
+      callable: trim
+    -
+      plugin: entity_generate
+      entity_type: taxonomy_term
+      value_key: name
+      bundle_key: vid
+      bundle: file_formats
   field_filesize: filesize
   field_filetype:
     -
@@ -240,7 +288,23 @@ process:
       value_key: name
       bundle_key: vid
       bundle: topics
-  field_type: type
+  field_type:
+    -
+      plugin: skip_on_empty
+      source: type
+      method: process
+    -
+      plugin: explode
+      delimiter: ;
+    -
+      plugin: callback
+      callable: trim
+    -
+      plugin: entity_generate
+      entity_type: taxonomy_term
+      value_key: name
+      bundle_key: vid
+      bundle: types
   field_url: url
   field_file:
     plugin: dspace_document
