@@ -93,12 +93,10 @@ content:
     type: datetime_default
     region: content
   field_dateextracted:
-    weight: 18
-    settings:
-      size: 60
-      placeholder: ''
+    weight: 47
+    settings: {  }
     third_party_settings: {  }
-    type: string_textfield
+    type: datetime_default
     region: content
   field_dc_date_accessioned:
     weight: 9

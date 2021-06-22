@@ -10,12 +10,16 @@ dependencies:
   config:
     - field.storage.node.body
     - field.storage.node.field_category
+    - field.storage.node.field_content_language
+    - field.storage.node.field_content_location
     - field.storage.node.field_datecreated
     - field.storage.node.field_description
     - field.storage.node.field_filetype
+    - field.storage.node.field_keywords
     - field.storage.node.field_thematicnetwork
     - field.storage.taxonomy_term.field_acronym
     - field.storage.taxonomy_term.field_fullname
+    - field.storage.node.field_type
     - search_api.server.eureka
 third_party_settings:
   search_api_solr:
@@ -90,6 +94,22 @@ field_settings:
     dependencies:
       config:
         - field.storage.node.field_category
+  field_content_language:
+    label: content_language
+    datasource_id: 'entity:node'
+    property_path: field_content_language
+    type: integer
+    dependencies:
+      config:
+        - field.storage.node.field_content_language
+  field_content_location:
+    label: content_location
+    datasource_id: 'entity:node'
+    property_path: field_content_location
+    type: integer
+    dependencies:
+      config:
+        - field.storage.node.field_content_location
   field_datecreated:
     label: datecreated
     datasource_id: 'entity:node'
@@ -133,6 +153,24 @@ field_settings:
     dependencies:
       config:
         - field.storage.node.field_thematicnetwork
+  field_type:
+    label: type
+    datasource_id: 'entity:node'
+    property_path: field_type
+    type: integer
+    dependencies:
+      config:
+        - field.storage.node.field_type
+  name:
+    label: 'keywords » Taxonomy term » Name'
+    datasource_id: 'entity:node'
+    property_path: 'field_keywords:entity:name'
+    type: string
+    dependencies:
+      config:
+        - field.storage.node.field_keywords
+      module:
+        - taxonomy
   nid:
     label: ID
     datasource_id: 'entity:node'
