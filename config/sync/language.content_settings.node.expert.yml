@@ -1,0 +1,11 @@
+uuid: e2c9c829-134f-45be-969d-49d8c45d8bce
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.expert
+id: node.expert
+target_entity_type_id: node
+target_bundle: expert
+default_langcode: site_default
+language_alterable: false

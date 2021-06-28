@@ -187,7 +187,23 @@ process:
       value_key: name
       bundle_key: vid
       bundle: locations
-  field_creator: creator
+  field_creator:
+    -
+      plugin: skip_on_empty
+      source: creator
+      method: process
+    -
+      plugin: explode
+      delimiter: ;
+    -
+      plugin: callback
+      callable: trim
+    -
+      plugin: entity_generate
+      entity_type: node
+      value_key: title
+      bundle_key: type
+      bundle: expert
   field_datecreated:
     -
       plugin: ignore
