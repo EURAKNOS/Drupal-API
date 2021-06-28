@@ -13,7 +13,7 @@ source:
   plugin: url
   data_fetcher_plugin: http
   data_parser_plugin: dspace
-  urls: 'http://api.dspace.poc.euraknos.cf/server/api/core/items?size=400'
+  urls: 'http://api.dspace.poc.euraknos.cf/server/api/core/items?size=20'
   item_selector: /_embedded/items
   fields:
     -
@@ -188,8 +188,16 @@ process:
       bundle_key: vid
       bundle: locations
   field_creator: creator
-  field_datecreated: datecreated
-  field_dateextracted: dateextracted
+  field_datecreated:
+    -
+      plugin: ignore
+      source: datecreated
+      default_value: NULL
+  field_dateextracted:
+    -
+      plugin: ignore
+      source: dateextracted
+      default_value: NULL
   field_fileformat:
     -
       plugin: skip_on_empty
