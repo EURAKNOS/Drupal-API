@@ -13,7 +13,7 @@ source:
   plugin: url
   data_fetcher_plugin: http
   data_parser_plugin: dspace
-  urls: 'http://api.dspace.poc.euraknos.cf/server/api/core/items?size=20'
+  urls: 'http://api.dspace.poc.euraknos.cf/server/api/core/items?size=400'
   item_selector: /_embedded/items
   fields:
     -
