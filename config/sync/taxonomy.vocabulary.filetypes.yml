@@ -4,5 +4,5 @@ status: true
 dependencies: {  }
 name: Filetypes
 vid: filetypes
-description: ''
+description: 'Defines Dspace filetypes.'
 weight: 0

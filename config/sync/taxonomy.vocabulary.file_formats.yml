@@ -4,5 +4,5 @@ status: true
 dependencies: {  }
 name: 'File formats'
 vid: file_formats
-description: ''
+description: 'Defines Dspace file formats.'
 weight: 0

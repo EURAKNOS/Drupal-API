@@ -4,5 +4,5 @@ status: true
 dependencies: {  }
 name: Locations
 vid: locations
-description: ''
+description: 'Defines Dspace locations.'
 weight: 0

@@ -4,5 +4,5 @@ status: true
 dependencies: {  }
 name: Languages
 vid: languages
-description: ''
+description: 'Defines Dspace languages.'
 weight: 0

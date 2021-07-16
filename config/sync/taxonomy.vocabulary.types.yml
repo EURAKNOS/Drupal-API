@@ -4,5 +4,5 @@ status: true
 dependencies: {  }
 name: Types
 vid: types
-description: ''
+description: 'Defines Dspace types.'
 weight: 0

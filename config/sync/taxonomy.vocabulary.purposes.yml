@@ -4,5 +4,5 @@ status: true
 dependencies: {  }
 name: Purposes
 vid: purposes
-description: ''
+description: 'Defines Dspace purposes.'
 weight: 0
