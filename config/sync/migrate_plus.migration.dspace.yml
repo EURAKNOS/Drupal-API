@@ -290,7 +290,7 @@ process:
     entity_type: taxonomy_term
     value_key: name
     bundle_key: vid
-    bundle: thematic_network
+    bundle: categories
     values:
       field_acronym: thematicnetwork.acronym
       field_fullname: thematicnetwork.fullname
