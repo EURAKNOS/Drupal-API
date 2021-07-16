@@ -4,21 +4,20 @@ status: true
 dependencies:
   module:
     - search_api_solr
-    - node
     - taxonomy
+    - node
     - search_api
   config:
     - field.storage.node.body
     - field.storage.node.field_category
+    - field.storage.taxonomy_term.field_acronym
+    - field.storage.taxonomy_term.field_fullname
     - field.storage.node.field_content_language
     - field.storage.node.field_content_location
     - field.storage.node.field_datecreated
     - field.storage.node.field_description
     - field.storage.node.field_filetype
     - field.storage.node.field_keywords
-    - field.storage.node.field_thematicnetwork
-    - field.storage.taxonomy_term.field_acronym
-    - field.storage.taxonomy_term.field_fullname
     - field.storage.node.field_type
     - search_api.server.eureka
 third_party_settings:
@@ -72,20 +71,10 @@ field_settings:
     datasource_id: 'entity:node'
     property_path: body
     type: text
+    boost: !!float 2
     dependencies:
       config:
         - field.storage.node.body
-  field_acronym:
-    label: 'thematicnetwork » Taxonomy term » Acronym'
-    datasource_id: 'entity:node'
-    property_path: 'field_thematicnetwork:entity:field_acronym'
-    type: text
-    dependencies:
-      config:
-        - field.storage.node.field_thematicnetwork
-        - field.storage.taxonomy_term.field_acronym
-      module:
-        - taxonomy
   field_category:
     label: Category
     datasource_id: 'entity:node'
@@ -94,6 +83,39 @@ field_settings:
     dependencies:
       config:
         - field.storage.node.field_category
+  field_category_acronym:
+    label: 'Category » Taxonomy term » Acronym'
+    datasource_id: 'entity:node'
+    property_path: 'field_category:entity:field_acronym'
+    type: text
+    dependencies:
+      config:
+        - field.storage.node.field_category
+        - field.storage.taxonomy_term.field_acronym
+      module:
+        - taxonomy
+  field_category_fullname:
+    label: 'Category » Taxonomy term » Fullname'
+    datasource_id: 'entity:node'
+    property_path: 'field_category:entity:field_fullname'
+    type: text
+    dependencies:
+      config:
+        - field.storage.node.field_category
+        - field.storage.taxonomy_term.field_fullname
+      module:
+        - taxonomy
+  field_category_name:
+    label: 'Category » Taxonomy term » Name'
+    datasource_id: 'entity:node'
+    property_path: 'field_category:entity:name'
+    type: text
+    boost: !!float 2
+    dependencies:
+      config:
+        - field.storage.node.field_category
+      module:
+        - taxonomy
   field_content_language:
     label: content_language
     datasource_id: 'entity:node'
@@ -123,6 +145,7 @@ field_settings:
     datasource_id: 'entity:node'
     property_path: field_description
     type: text
+    boost: !!float 3
     dependencies:
       config:
         - field.storage.node.field_description
@@ -134,25 +157,16 @@ field_settings:
     dependencies:
       config:
         - field.storage.node.field_filetype
-  field_fullname:
-    label: 'thematicnetwork » Taxonomy term » Fullname'
+  field_keywords_name:
+    label: 'keywords » Taxonomy term » Name'
     datasource_id: 'entity:node'
-    property_path: 'field_thematicnetwork:entity:field_fullname'
+    property_path: 'field_keywords:entity:name'
     type: text
     dependencies:
       config:
-        - field.storage.node.field_thematicnetwork
-        - field.storage.taxonomy_term.field_fullname
+        - field.storage.node.field_keywords
       module:
         - taxonomy
-  field_thematicnetwork:
-    label: thematicnetwork
-    datasource_id: 'entity:node'
-    property_path: field_thematicnetwork
-    type: integer
-    dependencies:
-      config:
-        - field.storage.node.field_thematicnetwork
   field_type:
     label: type
     datasource_id: 'entity:node'
@@ -161,16 +175,6 @@ field_settings:
     dependencies:
       config:
         - field.storage.node.field_type
-  name:
-    label: 'keywords » Taxonomy term » Name'
-    datasource_id: 'entity:node'
-    property_path: 'field_keywords:entity:name'
-    type: string
-    dependencies:
-      config:
-        - field.storage.node.field_keywords
-      module:
-        - taxonomy
   nid:
     label: ID
     datasource_id: 'entity:node'
