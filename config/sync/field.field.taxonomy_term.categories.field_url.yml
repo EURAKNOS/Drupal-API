@@ -1,0 +1,19 @@
+uuid: 7fc37f3d-d252-4d1d-a915-3089fbc075c5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_url
+    - taxonomy.vocabulary.categories
+id: taxonomy_term.categories.field_url
+field_name: field_url
+entity_type: taxonomy_term
+bundle: categories
+label: url
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long
